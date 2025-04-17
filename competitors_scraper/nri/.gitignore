@@ -49,8 +49,9 @@ htmlcov/
 ehthumbs.db
 Thumbs.db
 
-# 出力ディレクトリ（必要に応じてコメントアウト）
-# output/
+# 出力ディレクトリの中身だけを除外（ディレクトリ自体は残す）
+output/*
+!output/.gitkeep
 
 # .envファイルはGitにプッシュできるようにする（通常は除外するが、要件に従って含める）
 # .env
