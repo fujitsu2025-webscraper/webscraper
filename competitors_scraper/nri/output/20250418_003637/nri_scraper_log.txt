@@ -1,7 +1,0 @@
-2025-04-18 00:36:37,286 - nri_scraper - INFO - WebDriverを初期化しています...
-2025-04-18 00:36:37,286 - WDM - INFO - ====== WebDriver manager ======
-2025-04-18 00:36:37,480 - WDM - INFO - Get LATEST chromedriver version for google-chrome
-2025-04-18 00:36:37,537 - WDM - INFO - Get LATEST chromedriver version for google-chrome
-2025-04-18 00:36:37,583 - WDM - INFO - Driver [/Users/kitamotoshintarou/.wdm/drivers/chromedriver/mac64/135.0.7049.95/chromedriver-mac-arm64/chromedriver] found in cache
-2025-04-18 00:36:38,467 - nri_scraper - INFO - WebDriverの初期化が完了しました
-2025-04-18 00:36:38,472 - nri_scraper - INFO - ページソースをHTMLファイルに保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nri/output/20250418_003637/error_page_source.html
