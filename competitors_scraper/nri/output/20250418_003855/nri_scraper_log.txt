@@ -1,0 +1,120 @@
+2025-04-18 00:38:55,303 - nri_scraper - INFO - WebDriverを初期化しています...
+2025-04-18 00:38:55,303 - WDM - INFO - ====== WebDriver manager ======
+2025-04-18 00:38:55,423 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 00:38:55,471 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-18 00:38:55,556 - WDM - INFO - Driver [/Users/kitamotoshintarou/.wdm/drivers/chromedriver/mac64/135.0.7049.95/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-18 00:38:56,544 - nri_scraper - INFO - WebDriverの初期化が完了しました
+2025-04-18 00:38:56,545 - nri_service_scraper - INFO - 提供されたHTMLからサービス一覧を抽出中...
+2025-04-18 00:38:56,548 - nri_service_scraper - INFO - 3個のサービスアイテムを発見しました（HTML解析）
+2025-04-18 00:38:56,640 - nri_service_scraper - INFO - HTML解析から3件のサービスを抽出しました
+2025-04-18 00:38:56,641 - nri_service_scraper - INFO - サービス詳細情報を取得中: Allain
+2025-04-18 00:38:58,476 - nri_service_scraper - INFO - 2.7125395342094265秒待機中...
+2025-04-18 00:39:01,239 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:05,350 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:05,357 - nri_service_scraper - INFO - 要約を生成しました: Allainは、野村総合研究所が提供する、証券会社のホールセール部門とリテール部門をつなぐプラットフ...
+2025-04-18 00:39:06,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:06,640 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-18 00:39:07,926 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:07,928 - nri_service_scraper - INFO - 生成されたタイトル: 野村総研のAllainで100社超が金融取引効率化実現
+2025-04-18 00:39:07,930 - nri_service_scraper - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:39:07,930 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:07,971 - nri_scraper - INFO - 抽出されたコンテキスト: {}
+2025-04-18 00:39:09,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:09,080 - nri_scraper - INFO - 機能 'セキュリティ' を検出: ['テクノロジー', '情報通信']
+2025-04-18 00:39:09,080 - nri_scraper - INFO - 機能 '投資' を検出: ['金融サービス', '資産運用']
+2025-04-18 00:39:09,081 - nri_scraper - INFO - 機能 'デジタル' を検出: ['テクノロジー']
+2025-04-18 00:39:09,081 - nri_scraper - INFO - 機能 'プラットフォーム' を検出: ['テクノロジー']
+2025-04-18 00:39:09,081 - nri_scraper - INFO - 機能 'システム' を検出: ['テクノロジー']
+2025-04-18 00:39:09,081 - nri_scraper - INFO - 機能からの推定インダストリー: テクノロジー
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '自動車' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '重工業・エンジニアリング' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '産業機械' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '素材・化学' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー 'エネルギー・資源・鉱業' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '建設' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '運輸・物流' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '消費財・小売・流通' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー 'テクノロジー' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '情報通信' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー 'エンタテイメント&メディア' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー 'ホスピタリティ&レジャー' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '総合商社' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '金融サービス' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '銀行・証券' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '資産運用' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '保険' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '不動産' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー 'プライベート・エクイティ（PE）' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '都市・インフラストラクチャー' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '官公庁・地方自治体・公的機関' の共起語スコア: 0.0
+2025-04-18 00:39:09,081 - nri_scraper - INFO - インダストリー '農林水産・食・バイオ' の共起語スコア: 0.0
+2025-04-18 00:39:09,082 - nri_scraper - INFO - インダストリー '人材サービス' の共起語スコア: 0.0
+2025-04-18 00:39:09,082 - nri_scraper - INFO - インダストリー 'ヘルスケア・医薬ライフサイエンス' の共起語スコア: 0.0
+2025-04-18 00:39:09,691 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:09,692 - nri_scraper - INFO - 複合判定の最終結果: 金融サービス (スコア: 1.5499999999999998)
+2025-04-18 00:39:09,692 - nri_service_scraper - INFO - 高度なインダストリー判定結果: 金融サービス
+2025-04-18 00:39:09,692 - nri_service_scraper - INFO - サービス詳細情報を取得中: aslead［アスリード］
+2025-04-18 00:39:14,517 - nri_service_scraper - INFO - 1.4961367248213049秒待機中...
+2025-04-18 00:39:16,043 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:22,049 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:22,054 - nri_service_scraper - INFO - 要約を生成しました: aslead（アスリード）は、野村総合研究所（NRI）が提供するデジタルトランスフォーメーション（D...
+2025-04-18 00:39:23,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:23,441 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-18 00:39:24,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:24,837 - nri_service_scraper - INFO - 生成されたタイトル: NRIのaslead導入で生産性40%向上、業務効率化実現
+2025-04-18 00:39:24,837 - nri_service_scraper - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:39:24,838 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:24,910 - nri_scraper - INFO - 抽出されたコンテキスト: {}
+2025-04-18 00:39:26,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'クラウド' を検出: ['テクノロジー', '情報通信']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'セキュリティ' を検出: ['テクノロジー', '情報通信']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'AI' を検出: ['テクノロジー']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'DX' を検出: ['テクノロジー']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'デジタル' を検出: ['テクノロジー']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'プラットフォーム' を検出: ['テクノロジー']
+2025-04-18 00:39:26,063 - nri_scraper - INFO - 機能 'オンライン' を検出: ['テクノロジー']
+2025-04-18 00:39:26,064 - nri_scraper - INFO - 機能 'アプリ' を検出: ['テクノロジー']
+2025-04-18 00:39:26,064 - nri_scraper - INFO - 機能 'システム' を検出: ['テクノロジー']
+2025-04-18 00:39:26,064 - nri_scraper - INFO - 機能からの推定インダストリー: テクノロジー
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '自動車' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '重工業・エンジニアリング' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '産業機械' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '素材・化学' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー 'エネルギー・資源・鉱業' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '建設' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '運輸・物流' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '消費財・小売・流通' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー 'テクノロジー' の共起語スコア: 0.0
+2025-04-18 00:39:26,064 - nri_scraper - INFO - インダストリー '情報通信' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー 'エンタテイメント&メディア' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー 'ホスピタリティ&レジャー' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '総合商社' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '金融サービス' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '銀行・証券' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '資産運用' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '保険' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '不動産' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー 'プライベート・エクイティ（PE）' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '都市・インフラストラクチャー' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '官公庁・地方自治体・公的機関' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '農林水産・食・バイオ' の共起語スコア: 0.0
+2025-04-18 00:39:26,065 - nri_scraper - INFO - インダストリー '人材サービス' の共起語スコア: 0.0
+2025-04-18 00:39:26,066 - nri_scraper - INFO - インダストリー 'ヘルスケア・医薬ライフサイエンス' の共起語スコア: 0.0
+2025-04-18 00:39:27,054 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:27,057 - nri_scraper - INFO - 複合判定の最終結果: テクノロジー (スコア: 2.35)
+2025-04-18 00:39:27,057 - nri_service_scraper - INFO - 高度なインダストリー判定結果: テクノロジー
+2025-04-18 00:39:27,058 - nri_service_scraper - INFO - サービス詳細情報を取得中: atlax［アトラックス］
+2025-04-18 00:39:28,323 - nri_service_scraper - INFO - 2.3446839503058587秒待機中...
+2025-04-18 00:39:30,680 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:34,368 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:34,372 - nri_service_scraper - INFO - 要約を生成しました: 野村総合研究所（NRI）の「atlax」は、企業のビジネス推進をサポートするためのクラウド活用トータ...
+2025-04-18 00:39:35,555 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:35,558 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-18 00:39:36,749 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-18 00:39:36,752 - nri_service_scraper - INFO - 生成されたタイトル: NRI「atlax」で業務生産性向上とガバナンス強化実現
+2025-04-18 00:39:36,753 - nri_service_scraper - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:39:36,753 - nri_service_scraper - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:39:36,758 - nri_scraper - INFO - 特定のサービス名 'atlax' を検出したため、'テクノロジー' を割り当てます
+2025-04-18 00:39:36,758 - nri_service_scraper - INFO - 高度なインダストリー判定結果: テクノロジー
+2025-04-18 00:39:36,760 - nri_scraper - INFO - データをCSVファイルに保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nri/output/20250418_003855/nri_cases_20250418_003936.csv
+2025-04-18 00:39:36,761 - nri_scraper - INFO - データをJSONファイルに保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nri/output/20250418_003855/nri_cases_20250418_003936.json

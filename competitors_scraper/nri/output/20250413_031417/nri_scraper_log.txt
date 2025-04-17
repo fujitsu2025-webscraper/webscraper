@@ -1,0 +1,1094 @@
+2025-04-13 03:14:17,776 - nri_scraper - INFO - WebDriverを初期化しています...
+2025-04-13 03:14:17,776 - nri_scraper - INFO - ヘッドレスモードで実行します
+2025-04-13 03:14:17,777 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 03:14:17,988 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 03:14:18,127 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 03:14:18,165 - WDM - INFO - Driver [/Users/kitamotoshintarou/.wdm/drivers/chromedriver/mac64/135.0.7049.84/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-13 03:14:21,036 - nri_scraper - INFO - WebDriverの初期化が完了しました
+2025-04-13 03:14:21,036 - nri_service_scraper - INFO - ページにアクセス中: https://www.nri.com/jp/service/solution/index.html
+2025-04-13 03:14:23,908 - nri_service_scraper - INFO - 4.192372592786276秒待機中...
+2025-04-13 03:14:28,133 - nri_service_scraper - INFO - ページソースの長さ: 475859文字
+2025-04-13 03:14:28,137 - nri_service_scraper - INFO - ページタイトル: サービス・ソリューション一覧 | サービス・ソリューション | 野村総合研究所(NRI)
+2025-04-13 03:14:28,137 - nri_service_scraper - INFO - ページの読み込みを待機中...
+2025-04-13 03:14:28,142 - nri_service_scraper - INFO - サービス一覧を抽出中...
+2025-04-13 03:14:28,152 - nri_service_scraper - INFO - 113個のサービスアイテムを発見しました
+2025-04-13 03:14:29,693 - nri_service_scraper - INFO - 合計113件のサービスを抽出しました
+2025-04-13 03:14:29,693 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/allain.html
+2025-04-13 03:14:30,519 - nri_service_scraper - INFO - 3.05099377446073秒待機中...
+2025-04-13 03:14:34,145 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 12)
+2025-04-13 03:14:38,082 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:38,088 - nri_service_scraper - INFO - 要約を生成しました: Allainは、証券業界におけるホールセール部門とリテール部門をつなぐプラットフォーム型サービスで、...
+2025-04-13 03:14:39,209 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:39,212 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:14:40,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:40,247 - nri_service_scraper - INFO - 生成されたタイトル: Allainのプラットフォームで取引効率50%向上、収益拡大支援
+2025-04-13 03:14:40,247 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://aslead.nri.co.jp/
+2025-04-13 03:14:42,987 - nri_service_scraper - INFO - 3.4976242151773596秒待機中...
+2025-04-13 03:14:46,558 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 9)
+2025-04-13 03:14:50,988 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:50,990 - nri_service_scraper - INFO - 要約を生成しました: aslead（アスリード）は、野村総合研究所（NRI）が提供する、DXとAI時代の業務生産性向上を目...
+2025-04-13 03:14:51,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:51,948 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:14:53,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:14:53,136 - nri_service_scraper - INFO - 生成されたタイトル: 「野村総合研究所のasleadで業務効率40%向上」
+2025-04-13 03:14:53,137 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://atlax.nri.co.jp/
+2025-04-13 03:14:54,702 - nri_service_scraper - INFO - 2.655320927380199秒待機中...
+2025-04-13 03:14:57,383 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 自動車 (スコア: 6)
+2025-04-13 03:15:00,916 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:00,917 - nri_service_scraper - INFO - 要約を生成しました: 野村総合研究所（NRI）が提供するatlaxは、クラウド活用を推進するマネージドサービスを通じて企業...
+2025-04-13 03:15:02,247 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:02,248 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-13 03:15:03,578 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:03,579 - nri_service_scraper - INFO - 生成されたタイトル: NRIのatlax導入でクラウド利用効率40%向上と安全性強化
+2025-04-13 03:15:03,579 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/bankstar.html
+2025-04-13 03:15:03,741 - nri_service_scraper - INFO - 3.9409482424696507秒待機中...
+2025-04-13 03:15:07,734 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:15:11,671 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:11,672 - nri_service_scraper - INFO - 要約を生成しました: BANKSTAR導入サービスは、NRIとBIPROGYが共同で提供する銀行向け勘定系ソリューションで...
+2025-04-13 03:15:12,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:12,897 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: システムインテグレーション
+2025-04-13 03:15:16,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:16,277 - nri_service_scraper - INFO - 生成されたタイトル: BANKSTAR導入で100万口座運用、無店舗型銀行の効率化を実現
+2025-04-13 03:15:16,277 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/believus.html
+2025-04-13 03:15:16,895 - nri_service_scraper - INFO - 3.504990508568734秒待機中...
+2025-04-13 03:15:20,439 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 4)
+2025-04-13 03:15:20,440 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:15:21,292 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:21,293 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 金融サービス
+2025-04-13 03:15:25,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:25,221 - nri_service_scraper - INFO - 要約を生成しました: BELIEVUS（ビリーバス）は、企業の顧客接点を革新するためのDXプラットフォームで、WEB、スマ...
+2025-04-13 03:15:26,725 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:26,726 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:15:27,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:27,925 - nri_service_scraper - INFO - 生成されたタイトル: BELIEVUS採用で業務精度向上、データ駆動型モデル実現
+2025-04-13 03:15:27,925 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/believus_ls.html
+2025-04-13 03:15:28,394 - nri_service_scraper - INFO - 3.3211392506356217秒待機中...
+2025-04-13 03:15:31,860 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:15:36,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:36,148 - nri_service_scraper - INFO - 要約を生成しました: BELIEVUS/LSは、消費者信用業界向けに開発された審査ソリューションで、DX推進の一環として設...
+2025-04-13 03:15:37,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:37,064 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:15:38,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:38,112 - nri_service_scraper - INFO - 生成されたタイトル: BELIEVUS/LS導入で自動審査1件を最短1分に短縮
+2025-04-13 03:15:38,112 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/believus_me.html
+2025-04-13 03:15:38,614 - nri_service_scraper - INFO - 2.2871443613677487秒待機中...
+2025-04-13 03:15:40,931 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:15:44,657 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:44,661 - nri_service_scraper - INFO - 要約を生成しました: BELIEVUS/MEは、与信業務やマーケティング分野における業務の自動化と高度化を目的としたAIモ...
+2025-04-13 03:15:46,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:46,382 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:15:47,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:47,511 - nri_service_scraper - INFO - 生成されたタイトル: BELIEVUS/ME導入で業務精度30%向上、負荷軽減を実現
+2025-04-13 03:15:47,511 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/bestway_jj.html
+2025-04-13 03:15:47,947 - nri_service_scraper - INFO - 3.345149476200815秒待機中...
+2025-04-13 03:15:51,331 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 13)
+2025-04-13 03:15:59,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:15:59,295 - nri_service_scraper - INFO - 要約を生成しました: 「BESTWAY/JJ」は、銀行の投資信託窓口販売業務を総合的に支援するソリューションであり、営業店...
+2025-04-13 03:16:00,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:00,530 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:16:01,538 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:01,540 - nri_service_scraper - INFO - 生成されたタイトル: BESTWAY/JJ導入で銀行窓口業務を効率化、110社支援
+2025-04-13 03:16:01,540 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/bestway_fin.html
+2025-04-13 03:16:02,053 - nri_service_scraper - INFO - 3.7704632181632256秒待機中...
+2025-04-13 03:16:05,871 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 16)
+2025-04-13 03:16:09,832 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:09,835 - nri_service_scraper - INFO - 要約を生成しました: BESTWAYは、金銭信託商品の契約管理を支援する共同利用型サービスを提供しています。近年、低リスク...
+2025-04-13 03:16:10,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:10,754 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:16:12,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:12,394 - nri_service_scraper - INFO - 生成されたタイトル: BESTWAYの共同利用型サービスで信託管理業務を効率化、早期立上げ実現
+2025-04-13 03:16:12,394 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://bit-labs.nri.co.jp/
+2025-04-13 03:16:14,029 - nri_service_scraper - INFO - 2.523010917733944秒待機中...
+2025-04-13 03:16:16,591 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 人材サービス (スコア: 3)
+2025-04-13 03:16:16,591 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:16:17,512 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:17,513 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:16:22,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:22,199 - nri_service_scraper - INFO - 要約を生成しました: NRIは社内でISUCONを開催し、従業員に濃密な学習機会を提供することを目指しています。ISUCO...
+2025-04-13 03:16:23,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:23,458 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:16:24,783 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:24,784 - nri_service_scraper - INFO - 生成されたタイトル: NRIのISUCON開催で社員の技術力2倍向上を実現
+2025-04-13 03:16:24,784 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cc_at_home.html
+2025-04-13 03:16:25,512 - nri_service_scraper - INFO - 3.184058584598603秒待機中...
+2025-04-13 03:16:28,757 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: ヘルスケア・医薬ライフサイエンス (スコア: 6)
+2025-04-13 03:16:32,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:32,159 - nri_service_scraper - INFO - 要約を生成しました: 「CC@Home」は、2021年1月に提供を開始したリモート化・クラウド化を支援するコンタクトセンタ...
+2025-04-13 03:16:33,385 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:33,385 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:16:34,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:34,510 - nri_service_scraper - INFO - 生成されたタイトル: NRIのCC@Homeでセキュリティ向上と業務効率化実現
+2025-04-13 03:16:34,510 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://carbon-navi.jp/
+2025-04-13 03:16:35,645 - nri_service_scraper - INFO - 2.7721858331138325秒待機中...
+2025-04-13 03:16:38,531 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 自動車 (スコア: 3)
+2025-04-13 03:16:38,532 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:16:39,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:39,427 - nri_service_scraper - INFO - AIによるインダストリー判定結果: エネルギー・資源・鉱業
+2025-04-13 03:16:43,626 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:43,628 - nri_service_scraper - INFO - 要約を生成しました: 最近のカーボンクレジット市場では、JクレジットやEUA現物、ボランタリークレジットインデックスなどの...
+2025-04-13 03:16:44,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:44,547 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: サステナビリティ・グリーンIT
+2025-04-13 03:16:45,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:45,767 - nri_service_scraper - INFO - 生成されたタイトル: 「Jクレジット4,001円で環境規制に対応する先進技術」
+2025-04-13 03:16:45,767 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cutter_consulting.html
+2025-04-13 03:16:46,364 - nri_service_scraper - INFO - 3.672150571809987秒待機中...
+2025-04-13 03:16:50,073 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 16)
+2025-04-13 03:16:53,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:53,371 - nri_service_scraper - INFO - 要約を生成しました: Cutterコンサルティングサービスは、資産運用会社や機関投資家向けに、500件以上の実績を持つ専門...
+2025-04-13 03:16:56,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:56,124 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:16:56,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:16:56,936 - nri_service_scraper - INFO - 生成されたタイトル: Cutterの資産運用最適化で生産性2倍向上とリスク管理強化
+2025-04-13 03:16:56,936 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cutter_research.html
+2025-04-13 03:16:57,527 - nri_service_scraper - INFO - 2.3902904882405913秒待機中...
+2025-04-13 03:16:59,960 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 8)
+2025-04-13 03:17:04,207 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:04,208 - nri_service_scraper - INFO - 要約を生成しました: Cutterリサーチサービスは、世界26ヶ国に600名以上の顧客を持ち、資産運用会社におけるオペレー...
+2025-04-13 03:17:05,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:05,046 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:17:06,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:06,364 - nri_service_scraper - INFO - 生成されたタイトル: Cutterリサーチ、600顧客向けに年6-8本の価値あるレポート提供
+2025-04-13 03:17:06,367 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cxmm.html
+2025-04-13 03:17:06,986 - nri_service_scraper - INFO - 2.59045368674239秒待機中...
+2025-04-13 03:17:09,718 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 19)
+2025-04-13 03:17:13,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:13,015 - nri_service_scraper - INFO - 要約を生成しました: CXMM®サービスは、顧客ロイヤルティ指標の課題を解決するために開発された、金融機関向けの顧客調査分...
+2025-04-13 03:17:14,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:14,139 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:17:15,579 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:15,580 - nri_service_scraper - INFO - 生成されたタイトル: NRIと一橋大が開発したCXMM®、顧客ロイヤルティ測定精度向上
+2025-04-13 03:17:15,581 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cx_diagnosis.html
+2025-04-13 03:17:17,198 - nri_service_scraper - INFO - 3.604032817324975秒待機中...
+2025-04-13 03:17:20,856 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:17:20,856 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:17:21,642 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:21,644 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:17:26,737 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:26,738 - nri_service_scraper - INFO - 要約を生成しました: CX診断サービスは、顧客体験（CX）を向上させるための課題解決を目指しています。主な課題は、顧客から...
+2025-04-13 03:17:27,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:27,572 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:17:28,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:28,477 - nri_service_scraper - INFO - 生成されたタイトル: CX診断サービスで顧客体験を50%改善し競合分析を実施
+2025-04-13 03:17:28,477 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/d_reel.html
+2025-04-13 03:17:29,042 - nri_service_scraper - INFO - 2.3159828783363317秒待機中...
+2025-04-13 03:17:31,392 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:17:31,393 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:17:32,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:32,061 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:17:35,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:35,647 - nri_service_scraper - INFO - 要約を生成しました: D-reelは、リテール営業業務向けのデータ活用プラットフォームで、自社・グループ会社のデータウェア...
+2025-04-13 03:17:36,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:36,874 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:17:38,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:38,000 - nri_service_scraper - INFO - 生成されたタイトル: D-reelのAI需給予測で営業生産性30%向上を実現
+2025-04-13 03:17:38,001 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/daybreak_pl.html
+2025-04-13 03:17:38,476 - nri_service_scraper - INFO - 3.567256012195904秒待機中...
+2025-04-13 03:17:42,098 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 5)
+2025-04-13 03:17:46,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:46,500 - nri_service_scraper - INFO - 要約を生成しました: Daybreak/PLは、改正貸金業法および改正割賦販売法に対応した指定信用情報機関接続ソリューショ...
+2025-04-13 03:17:47,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:47,624 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:17:48,649 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:48,651 - nri_service_scraper - INFO - 生成されたタイトル: NRIのDaybreak/PL導入で運用コスト30%削減実現
+2025-04-13 03:17:48,651 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dipcore.html
+2025-04-13 03:17:49,172 - nri_service_scraper - INFO - 2.7970649066698066秒待機中...
+2025-04-13 03:17:52,035 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 21)
+2025-04-13 03:17:56,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:56,551 - nri_service_scraper - INFO - 要約を生成しました: DiPcoreは、顧客のDX（デジタルトランスフォーメーション）を実現するために、AIアルゴリズムと...
+2025-04-13 03:17:57,660 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:57,661 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-13 03:17:58,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:17:58,786 - nri_service_scraper - INFO - 生成されたタイトル: DiPcoreのAI活用でDXを加速、配送効率20%向上実現
+2025-04-13 03:17:58,786 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dipcore_ai-ocr.html
+2025-04-13 03:17:59,262 - nri_service_scraper - INFO - 2.2243032778902676秒待機中...
+2025-04-13 03:18:01,537 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:18:01,538 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:18:02,398 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:02,400 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:18:05,939 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:05,946 - nri_service_scraper - INFO - 要約を生成しました: DiPcore AI-OCRは、基幹業務システムへの組み込みを前提とした高精度のOCRシステムであり...
+2025-04-13 03:18:06,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:06,990 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-13 03:18:07,592 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:07,593 - nri_service_scraper - INFO - 生成されたタイトル: DiPcore AI-OCR導入で非定型帳票の誤読率90%削減
+2025-04-13 03:18:07,593 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dipcore_route_planning.html
+2025-04-13 03:18:08,110 - nri_service_scraper - INFO - 2.825967174412474秒待機中...
+2025-04-13 03:18:10,972 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 自動車 (スコア: 3)
+2025-04-13 03:18:10,973 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:18:11,793 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:11,794 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 運輸・物流
+2025-04-13 03:18:14,765 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:14,767 - nri_service_scraper - INFO - 要約を生成しました: DiPcore配送最適化は、細かな制約条件に対応した高速な配送計画最適化エンジンであり、配送台数削減...
+2025-04-13 03:18:15,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:15,894 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:18:16,775 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:16,777 - nri_service_scraper - INFO - 生成されたタイトル: DiPcore配送最適化で移動時間30%短縮・台数自動化実現
+2025-04-13 03:18:16,777 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dx_business_system_support.html
+2025-04-13 03:18:17,373 - nri_service_scraper - INFO - 2.091217880405627秒待機中...
+2025-04-13 03:18:19,511 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 建設 (スコア: 8)
+2025-04-13 03:18:23,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:23,053 - nri_service_scraper - INFO - 要約を生成しました: 導入背景として、デジタルを活用した新しいビジネスモデルやサービスの必要性が高まっています。NRIは、...
+2025-04-13 03:18:24,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:24,321 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:18:25,617 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:25,619 - nri_service_scraper - INFO - 生成されたタイトル: NRI、デジタルモデルで建設業DX支援し地域活性化貢献
+2025-04-13 03:18:25,619 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dx_business_solution.html
+2025-04-13 03:18:26,211 - nri_service_scraper - INFO - 2.290925299941412秒待機中...
+2025-04-13 03:18:28,565 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 17)
+2025-04-13 03:18:32,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:32,381 - nri_service_scraper - INFO - 要約を生成しました: DXビジネスソリューションは、コンサルティングとエンジニアリングの融合により、企業の成長を支援する多...
+2025-04-13 03:18:33,706 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:33,707 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:18:34,729 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:34,730 - nri_service_scraper - INFO - 生成されたタイトル: 「DXビジネスソリューションが医薬品文書管理を30%効率化」
+2025-04-13 03:18:34,730 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/e_aurora.html
+2025-04-13 03:18:34,889 - nri_service_scraper - INFO - 2.8694622154580163秒待機中...
+2025-04-13 03:18:37,808 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 26)
+2025-04-13 03:18:40,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:40,773 - nri_service_scraper - INFO - 要約を生成しました: 「e-AURORA」は、金融機関向けに投資情報分析と提供をサポートするプラットフォームです。証券会社...
+2025-04-13 03:18:41,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:41,970 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:18:42,922 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:42,923 - nri_service_scraper - INFO - 生成されたタイトル: e-AURORA導入で金融機関向け業務生産性30%向上
+2025-04-13 03:18:42,923 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/e_aurora.html
+2025-04-13 03:18:43,444 - nri_service_scraper - INFO - 3.6322555175582454秒待機中...
+2025-04-13 03:18:47,127 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 26)
+2025-04-13 03:18:50,603 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:50,604 - nri_service_scraper - INFO - 要約を生成しました: 「e-AURORA」は、金融機関向けの投資情報分析および提供サービスを提供するプラットフォームです。...
+2025-04-13 03:18:51,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:51,700 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:18:52,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:18:52,645 - nri_service_scraper - INFO - 生成されたタイトル: 「e-AURORA導入で300金融機関が投資分析効率化」
+2025-04-13 03:18:52,645 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/ebango.html
+2025-04-13 03:18:53,390 - nri_service_scraper - INFO - 3.8760814660851093秒待機中...
+2025-04-13 03:18:57,316 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:19:00,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:00,745 - nri_service_scraper - INFO - 要約を生成しました: e-BANGOは、マイナンバーを安全に保管・管理するためのサービスで、マイナンバー法に準拠した環境を...
+2025-04-13 03:19:02,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:02,081 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:19:02,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:02,796 - nri_service_scraper - INFO - 生成されたタイトル: e-BANGOが実現する100万件管理の安全なマイナンバー保管
+2025-04-13 03:19:02,798 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/ebango_imagea.html
+2025-04-13 03:19:03,438 - nri_service_scraper - INFO - 2.771301027305589秒待機中...
+2025-04-13 03:19:06,260 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:19:09,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:09,626 - nri_service_scraper - INFO - 要約を生成しました: e-BANGO/image αは、重要書類を金融機関の基幹システムと同等のセキュリティで電子化・保管...
+2025-04-13 03:19:10,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:10,569 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:19:11,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:11,910 - nri_service_scraper - INFO - 生成されたタイトル: e-BANGO/image α導入で業務負担50%軽減と法令遵守実現
+2025-04-13 03:19:11,910 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/e_jibai.html
+2025-04-13 03:19:12,535 - nri_service_scraper - INFO - 3.740236070472427秒待機中...
+2025-04-13 03:19:16,323 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 保険 (スコア: 12)
+2025-04-13 03:19:19,891 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:19,892 - nri_service_scraper - INFO - 要約を生成しました: e-JIBAIは、自賠責保険制度に基づく保険業務を共同利用型で提供するサービスで、業界の標準化を目指...
+2025-04-13 03:19:21,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:21,019 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:19:22,097 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:22,100 - nri_service_scraper - INFO - 生成されたタイトル: e-JIBAIが90%市場シェアで保険業務を効率化
+2025-04-13 03:19:22,100 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/eninsho.html
+2025-04-13 03:19:22,706 - nri_service_scraper - INFO - 2.258953178259655秒待機中...
+2025-04-13 03:19:25,013 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:19:29,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:29,032 - nri_service_scraper - INFO - 要約を生成しました: e-NINSHOは、マイナンバーカードの電子証明書を活用し、オンラインでの本人確認とマイナンバー収集...
+2025-04-13 03:19:30,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:30,231 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:19:31,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:31,359 - nri_service_scraper - INFO - 生成されたタイトル: NRIのe-NINSHO、オンライン業務効率を30%向上実現
+2025-04-13 03:19:31,359 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/eshishobako.html
+2025-04-13 03:19:31,984 - nri_service_scraper - INFO - 3.126832722812922秒待機中...
+2025-04-13 03:19:35,203 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 官公庁・地方自治体・公的機関 (スコア: 14)
+2025-04-13 03:19:37,941 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:37,943 - nri_service_scraper - INFO - 要約を生成しました: e-私書箱は、株式会社野村総合研究所（NRI）が提供する官民連携のクラウドサービスで、企業から個人へ...
+2025-04-13 03:19:38,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:38,998 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-13 03:19:40,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:40,320 - nri_service_scraper - INFO - 生成されたタイトル: NRIのe-私書箱で手続き時間50%削減、郵送費も大幅削減！
+2025-04-13 03:19:40,320 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.pcls.jp/econy/
+2025-04-13 03:19:42,252 - nri_service_scraper - INFO - 3.6313564708927517秒待機中...
+2025-04-13 03:19:45,933 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 10)
+2025-04-13 03:19:49,281 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:49,284 - nri_service_scraper - INFO - 要約を生成しました: econyは、商談から契約手続きまでを一元化したオンライン契約ソリューションです。従来の紙ベースの契...
+2025-04-13 03:19:50,519 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:50,521 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:19:51,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:51,531 - nri_service_scraper - INFO - 生成されたタイトル: econyのオンライン契約で業務効率40%向上とコンプライアンス強化
+2025-04-13 03:19:51,531 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/efront.html
+2025-04-13 03:19:52,230 - nri_service_scraper - INFO - 2.581001489873975秒待機中...
+2025-04-13 03:19:54,862 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 24)
+2025-04-13 03:19:58,131 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:58,133 - nri_service_scraper - INFO - 要約を生成しました: NRIは、オルタナティブ投資管理向けのeFrontソリューションを導入し、金融機関向けに資産運用支援...
+2025-04-13 03:19:59,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:19:59,422 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:20:00,135 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:00,136 - nri_service_scraper - INFO - 生成されたタイトル: NRI、eFront導入で業務効率50%向上とリスク管理強化
+2025-04-13 03:20:00,136 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/exspeeder.html
+2025-04-13 03:20:00,687 - nri_service_scraper - INFO - 2.871408692871189秒待機中...
+2025-04-13 03:20:03,603 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 10)
+2025-04-13 03:20:06,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:06,899 - nri_service_scraper - INFO - 要約を生成しました: EXSPEEDERは、証券取引所向けの発注端末サービスで、取引所の売買システムへの直接発注や障害時の...
+2025-04-13 03:20:07,702 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:07,704 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:20:08,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:08,532 - nri_service_scraper - INFO - 生成されたタイトル: EXSPEEDER導入で発注監視効率化、低コスト運用実現
+2025-04-13 03:20:08,532 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/fundweb_gaito.html
+2025-04-13 03:20:09,240 - nri_service_scraper - INFO - 3.8810516225133167秒待機中...
+2025-04-13 03:20:13,166 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 14)
+2025-04-13 03:20:16,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:16,653 - nri_service_scraper - INFO - 要約を生成しました: FundWeb GAITOは、国内の証券会社や銀行と海外トランスファーエージェントを接続する外国籍投...
+2025-04-13 03:20:17,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:17,851 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:20:19,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:19,079 - nri_service_scraper - INFO - 生成されたタイトル: FundWeb GAITO導入で業務効率40%向上、入力ミス削減実現
+2025-04-13 03:20:19,080 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/fundweb_library.html
+2025-04-13 03:20:19,635 - nri_service_scraper - INFO - 3.458733310739415秒待機中...
+2025-04-13 03:20:23,151 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 保険 (スコア: 16)
+2025-04-13 03:20:26,762 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:26,766 - nri_service_scraper - INFO - 要約を生成しました: FundWeb Libraryは、投信委託会社と投信販売会社間の文書やりとりを効率化する電子文書管理...
+2025-04-13 03:20:28,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:28,041 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:20:29,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:29,221 - nri_service_scraper - INFO - 生成されたタイトル: FundWeb Library導入で100社超、文書共有を効率化！
+2025-04-13 03:20:29,222 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/fundweb.html
+2025-04-13 03:20:29,903 - nri_service_scraper - INFO - 3.0563515596468998秒待機中...
+2025-04-13 03:20:33,056 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 14)
+2025-04-13 03:20:36,680 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:36,681 - nri_service_scraper - INFO - 要約を生成しました: FundWeb Transferは、投資信託販売会社と運用会社を接続するSaaS型ネットワークソリュ...
+2025-04-13 03:20:37,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:37,823 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:20:38,839 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:38,841 - nri_service_scraper - INFO - 生成されたタイトル: FundWeb Transfer導入で230社とデータ交換、業務効率40%向上
+2025-04-13 03:20:38,841 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/gplex.html
+2025-04-13 03:20:39,596 - nri_service_scraper - INFO - 2.2288768390000637秒待機中...
+2025-04-13 03:20:41,869 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 15)
+2025-04-13 03:20:45,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:45,503 - nri_service_scraper - INFO - 要約を生成しました: GPLEXは、金融機関向けのマネー・ローンダリングおよびテロ資金供与対策（AML/CFT）を総合的に...
+2025-04-13 03:20:48,772 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:48,773 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:20:49,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:20:49,903 - nri_service_scraper - INFO - 生成されたタイトル: GPLEXでAML/CFT態勢を40%高度化し運用効率化成功
+2025-04-13 03:20:49,903 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_core.html
+2025-04-13 03:20:50,676 - nri_service_scraper - INFO - 2.05081311260182秒待機中...
+2025-04-13 03:20:52,810 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:21:12,099 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:12,102 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/COREは、日本の証券決済制度に準拠したホールセール証券業務のバックオフィスソリューシ...
+2025-04-13 03:21:13,229 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:13,230 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:21:14,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:14,273 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/CORE導入で業務効率化、決済リスク低減を実現
+2025-04-13 03:21:14,273 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_core.html
+2025-04-13 03:21:14,868 - nri_service_scraper - INFO - 3.5285064636753827秒待機中...
+2025-04-13 03:21:18,474 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:21:21,823 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:21,842 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/CXは、ホールセール証券業務を支援するリアルタイム決済管理ソリューションで、保振機構の...
+2025-04-13 03:21:23,091 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:23,092 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:21:24,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:24,102 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/CX導入で100社突破、決済業務自動化を実現
+2025-04-13 03:21:24,103 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_gv.html
+2025-04-13 03:21:24,734 - nri_service_scraper - INFO - 2.056158219844528秒待機中...
+2025-04-13 03:21:26,841 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 19)
+2025-04-13 03:21:30,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:30,350 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/GVは、海外拠点向けのホールセール証券バックオフィスソリューションで、複数拠点のバック...
+2025-04-13 03:21:31,373 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:31,376 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:21:32,501 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:32,503 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/GV導入で海外拠点業務60%効率化、コスト削減実現
+2025-04-13 03:21:32,503 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_gx.html
+2025-04-13 03:21:33,138 - nri_service_scraper - INFO - 2.3420674314960683秒待機中...
+2025-04-13 03:21:35,559 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:21:39,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:39,568 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/GXは、外貨・外国証券バックオフィス業務の効率化を目的としたソリューションで、決済処理...
+2025-04-13 03:21:40,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:40,692 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:21:41,714 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:41,714 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/GX導入でバックオフィス業務効率30%向上！
+2025-04-13 03:21:41,715 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_core.html
+2025-04-13 03:21:42,210 - nri_service_scraper - INFO - 2.7997655522524427秒待機中...
+2025-04-13 03:21:45,082 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:21:48,473 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:48,475 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/COREは、日本のホールセール証券業務に特化したバックオフィスソリューションであり、約...
+2025-04-13 03:21:49,576 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:49,577 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:21:50,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:50,623 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/CORE導入で100社以上の証券業務効率化実現
+2025-04-13 03:21:50,624 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_core.html
+2025-04-13 03:21:51,125 - nri_service_scraper - INFO - 3.7781170794992605秒待機中...
+2025-04-13 03:21:54,959 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:21:58,425 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:58,427 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/MXは、日本の証券決済制度に対応した保振決済照合ソリューションで、ホールセール証券業務...
+2025-04-13 03:21:59,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:21:59,229 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:22:00,255 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:00,256 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/MX導入で証券決済業務の効率化とリスク低減実現
+2025-04-13 03:22:00,256 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/i_star_core.html
+2025-04-13 03:22:00,908 - nri_service_scraper - INFO - 3.8157405044985646秒待機中...
+2025-04-13 03:22:04,799 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 25)
+2025-04-13 03:22:07,902 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:07,904 - nri_service_scraper - INFO - 要約を生成しました: I-STAR/SCは、ホールセール証券業務を支援するバックオフィスソリューションで、日本の証券決済制...
+2025-04-13 03:22:09,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:09,058 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:22:10,391 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:10,393 - nri_service_scraper - INFO - 生成されたタイトル: I-STAR/SC導入で業務効率化30%達成、証券決済を支援
+2025-04-13 03:22:10,394 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/ids.html
+2025-04-13 03:22:10,948 - nri_service_scraper - INFO - 3.8538569526475452秒待機中...
+2025-04-13 03:22:14,876 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 26)
+2025-04-13 03:22:18,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:18,995 - nri_service_scraper - INFO - 要約を生成しました: NRIの金融情報データベース提供サービス（IDS）は、国内外の経済・金融データを提供し、投資分析やリ...
+2025-04-13 03:22:20,219 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:20,233 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:22:21,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:21,653 - nri_service_scraper - INFO - 生成されたタイトル: NRIのIDS導入で債券評価精度2倍向上、迅速データ提供
+2025-04-13 03:22:21,653 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.is.nri.co.jp/
+2025-04-13 03:22:23,769 - nri_service_scraper - INFO - 3.1361311331427073秒待機中...
+2025-04-13 03:22:26,927 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 自動車 (スコア: 7)
+2025-04-13 03:22:30,275 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:30,290 - nri_service_scraper - INFO - 要約を生成しました: 野村総合研究所は、マーケティングを「見える化」し、経営戦略に役立てる「Insight Signal」...
+2025-04-13 03:22:31,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:31,379 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:22:32,035 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:32,036 - nri_service_scraper - INFO - 生成されたタイトル: 野村総合研究所、Insight Signal導入で広告効果を可視化
+2025-04-13 03:22:32,037 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/structural_reforms.html
+2025-04-13 03:22:33,337 - nri_service_scraper - INFO - 2.921037602378301秒待機中...
+2025-04-13 03:22:36,314 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:22:36,315 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:22:37,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:37,225 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:22:40,601 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:40,604 - nri_service_scraper - INFO - 要約を生成しました: IT部門構造改革プログラムは、グローバル化や成長戦略の実現に向けて、経営層の高まる期待に応えるための...
+2025-04-13 03:22:41,618 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:41,619 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:22:42,954 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:42,956 - nri_service_scraper - INFO - 生成されたタイトル: NRIのメソドロジでIT部門改革、業績向上の基盤構築
+2025-04-13 03:22:42,956 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-gis.jp/
+2025-04-13 03:22:43,327 - nri_service_scraper - INFO - 3.7407158339504187秒待機中...
+2025-04-13 03:22:47,104 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 自動車 (スコア: 6)
+2025-04-13 03:22:50,759 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:50,764 - nri_service_scraper - INFO - 要約を生成しました: 野村総合研究所（NRI）は、エリアマーケティングのニーズに応えるため、GISソフト「マーケット・トラ...
+2025-04-13 03:22:51,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:51,963 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:22:52,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:52,735 - nri_service_scraper - INFO - 生成されたタイトル: 野村総合研究所「マーケット・トランスレーター」で潜在市場可視化実現
+2025-04-13 03:22:52,736 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://senjufamily.nri.co.jp/mplat/index.html
+2025-04-13 03:22:53,976 - nri_service_scraper - INFO - 3.0970845903573174秒待機中...
+2025-04-13 03:22:57,135 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 消費財・小売・流通 (スコア: 3)
+2025-04-13 03:22:57,137 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:22:57,702 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:22:57,709 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:23:01,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:01,188 - nri_service_scraper - INFO - 要約を生成しました: NRIは、システム運用管理の現場が抱える課題に対応するため、運用ノウハウを活かし「Senju Fam...
+2025-04-13 03:23:02,203 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:02,204 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 運用・保守サービス
+2025-04-13 03:23:03,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:03,535 - nri_service_scraper - INFO - 生成されたタイトル: NRIの「mPLAT」で運用効率化、国内シェアNo.1達成
+2025-04-13 03:23:03,535 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/nri_baas_core.html
+2025-04-13 03:23:04,268 - nri_service_scraper - INFO - 2.556025758296692秒待機中...
+2025-04-13 03:23:06,904 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 26)
+2025-04-13 03:23:10,088 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:10,090 - nri_service_scraper - INFO - 要約を生成しました: NRI BaaS/COREは、BIPROGYの銀行勘定系システム「BANKSTAR®」を基に、API...
+2025-04-13 03:23:11,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:11,316 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:23:12,260 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:12,262 - nri_service_scraper - INFO - 生成されたタイトル: NRI BaaS/CORE導入でBANKSTAR®が柔軟な銀行サービス実現
+2025-04-13 03:23:12,262 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/esg_data_service.html
+2025-04-13 03:23:12,845 - nri_service_scraper - INFO - 3.811195268381563秒待機中...
+2025-04-13 03:23:16,705 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:23:20,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:20,022 - nri_service_scraper - INFO - 要約を生成しました: NRI ESGデータ提供サービスは、企業のESGデータ収集と管理の効率化を目的としたソリューションで...
+2025-04-13 03:23:21,177 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:21,178 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: サステナビリティ・グリーンIT
+2025-04-13 03:23:22,272 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:22,273 - nri_service_scraper - INFO - 生成されたタイトル: NRI ESGデータ提供サービスで業務効率40%向上実現
+2025-04-13 03:23:22,273 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/solution_ai.html
+2025-04-13 03:23:23,175 - nri_service_scraper - INFO - 2.111528251996102秒待機中...
+2025-04-13 03:23:25,333 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 9)
+2025-04-13 03:23:28,734 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:28,741 - nri_service_scraper - INFO - 要約を生成しました: NRIは、ビジネスの効率化や社会課題の解決に向け、AI技術を本格的に活用する取り組みを進めています。...
+2025-04-13 03:23:29,851 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:29,852 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-13 03:23:32,106 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:32,108 - nri_service_scraper - INFO - 生成されたタイトル: NRI、AIで業務効率40%向上とコンタクト自動化実現
+2025-04-13 03:23:32,109 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/nri_stream.html
+2025-04-13 03:23:32,638 - nri_service_scraper - INFO - 3.3705906243066397秒待機中...
+2025-04-13 03:23:36,067 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 13)
+2025-04-13 03:23:38,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:38,742 - nri_service_scraper - INFO - 要約を生成しました: NRI STREAMは、投資信託を扱う販売会社と資産運用会社間の情報連携やデジタルマーケティングを支...
+2025-04-13 03:23:39,582 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:39,583 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:23:40,705 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:40,706 - nri_service_scraper - INFO - 生成されたタイトル: NRI STREAMのHTML形式レポートで印刷費30%削減実現
+2025-04-13 03:23:40,706 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/g_scm_s.html
+2025-04-13 03:23:41,352 - nri_service_scraper - INFO - 2.9240582258776304秒待機中...
+2025-04-13 03:23:44,328 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 9)
+2025-04-13 03:23:48,399 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:48,420 - nri_service_scraper - INFO - 要約を生成しました: NRIグローバルSCMソリューションは、海外拠点を持つ日本企業が直面する情報共有の遅れや生産プロセス...
+2025-04-13 03:23:49,669 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:49,670 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: システムインテグレーション
+2025-04-13 03:23:50,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:50,340 - nri_service_scraper - INFO - 生成されたタイトル: NRIグローバルSCMで150拠点以上の業務効率化実現
+2025-04-13 03:23:50,340 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/mynumber.html
+2025-04-13 03:23:51,064 - nri_service_scraper - INFO - 2.1819524781928727秒待機中...
+2025-04-13 03:23:53,291 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 9)
+2025-04-13 03:23:56,680 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:56,683 - nri_service_scraper - INFO - 要約を生成しました: NRIは、マイナンバー制度の設計段階から関与し、深い制度理解を基に、金融機関や事業会社、学校法人向け...
+2025-04-13 03:23:57,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:57,668 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:23:58,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:23:58,728 - nri_service_scraper - INFO - 生成されたタイトル: NRI、マイナンバー関連サービスで安全性向上と利便性倍増
+2025-04-13 03:23:58,728 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_family.html
+2025-04-13 03:23:59,366 - nri_service_scraper - INFO - 3.8389526878749636秒待機中...
+2025-04-13 03:24:03,269 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 19)
+2025-04-13 03:24:07,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:07,442 - nri_service_scraper - INFO - 要約を生成しました: NRIの資産運用ビジネスは、30年以上の経験を持ち、投資信託や年金の運用業務を支援するT-STARフ...
+2025-04-13 03:24:08,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:08,662 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:24:10,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:10,320 - nri_service_scraper - INFO - 生成されたタイトル: NRIのT-STARシェア80%達成、顧客満足度4以上の高評価
+2025-04-13 03:24:10,320 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/bpo.html
+2025-04-13 03:24:11,040 - nri_service_scraper - INFO - 3.464280288011243秒待機中...
+2025-04-13 03:24:14,608 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:24:18,496 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:18,498 - nri_service_scraper - INFO - 要約を生成しました: NRIプロセスイノベーションは、業務管理やコスト改革における課題を解決するため、BPOサービスを提供...
+2025-04-13 03:24:19,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:19,725 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:24:20,950 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:20,951 - nri_service_scraper - INFO - 生成されたタイトル: NRIプロセスイノベーションが業務コストを30%削減実現
+2025-04-13 03:24:20,951 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/news/newsrelease/20240910_1.html
+2025-04-13 03:24:21,567 - nri_service_scraper - INFO - 2.482390253672575秒待機中...
+2025-04-13 03:24:24,118 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 19)
+2025-04-13 03:24:27,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:27,406 - nri_service_scraper - INFO - 要約を生成しました: 野村総合研究所（NRI）は、金融機関向けにデータ主権を確保し、高セキュリティのAIプラットフォーム「...
+2025-04-13 03:24:28,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:28,260 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-13 03:24:28,935 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:28,936 - nri_service_scraper - INFO - 生成されたタイトル: NRI、金融AIプラットフォームでデータ主権確保を実現
+2025-04-13 03:24:28,936 - nri_service_scraper - INFO - 詳細ページにアクセス中: http://works.nri.co.jp/owx/
+2025-04-13 03:24:30,386 - nri_service_scraper - INFO - 3.5307752568220883秒待機中...
+2025-04-13 03:24:33,956 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 12)
+2025-04-13 03:24:37,403 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:37,405 - nri_service_scraper - INFO - 要約を生成しました: ObjectWorks Xは、Javaを基盤としたWebシステム開発フレームワークであり、SBOM（...
+2025-04-13 03:24:38,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:38,152 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:24:39,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:39,281 - nri_service_scraper - INFO - 生成されたタイトル: ObjectWorks XがSBOMでソフトウェア管理を強化し、10年サポート実現
+2025-04-13 03:24:39,281 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/oms.html
+2025-04-13 03:24:39,974 - nri_service_scraper - INFO - 2.1918325249559767秒待機中...
+2025-04-13 03:24:42,209 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 5)
+2025-04-13 03:24:46,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:46,041 - nri_service_scraper - INFO - 要約を生成しました: NRIのOMSソリューションは、証券ホールセールビジネスにおけるトレーディング業務のデジタル化を支援...
+2025-04-13 03:24:47,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:47,174 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:24:48,191 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:24:48,192 - nri_service_scraper - INFO - 生成されたタイトル: NRIのOMSソリューションがトレーディング効率を倍増
+2025-04-13 03:24:48,192 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/onejibai.html
+2025-04-13 03:24:48,792 - nri_service_scraper - INFO - 3.751239831509526秒待機中...
+2025-04-13 03:24:52,607 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 保険 (スコア: 10)
+2025-04-13 03:25:01,719 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:01,731 - nri_service_scraper - INFO - 要約を生成しました: One-JIBAIは、自賠責保険制度に基づく保険の引受と契約管理を行う共同利用型サービスで、損害保険...
+2025-04-13 03:25:02,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:02,729 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:25:03,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:03,755 - nri_service_scraper - INFO - 生成されたタイトル: One-JIBAI導入で業務効率化、コスト削減を30%実現
+2025-04-13 03:25:03,755 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://openstandia.jp/
+2025-04-13 03:25:06,689 - nri_service_scraper - INFO - 3.3859580140248373秒待機中...
+2025-04-13 03:25:10,120 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 保険 (スコア: 8)
+2025-04-13 03:25:13,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:13,508 - nri_service_scraper - INFO - 要約を生成しました: OpenStandiaは、野村総合研究所（NRI）が提供するオープンソースソフトウェア（OSS）のサ...
+2025-04-13 03:25:14,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:14,505 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:25:15,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:15,428 - nri_service_scraper - INFO - 生成されたタイトル: 「NRIのOpenStandia KAIDがID管理を3,000件で強化」
+2025-04-13 03:25:15,429 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.pcls.jp/
+2025-04-13 03:25:16,650 - nri_service_scraper - INFO - 3.9980377820709228秒待機中...
+2025-04-13 03:25:20,689 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 6)
+2025-04-13 03:25:24,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:24,704 - nri_service_scraper - INFO - 要約を生成しました: PCLifecycleSuiteは、テレワークやWeb会議の普及に伴い、企業のPCやスマートデバイス...
+2025-04-13 03:25:25,975 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:25,976 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:25:26,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:27,000 - nri_service_scraper - INFO - 生成されたタイトル: NRIのPCLifecycleSuiteで10万台管理、セキュリティ強化・生産性向上実現
+2025-04-13 03:25:27,000 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/pd_gxp.html
+2025-04-13 03:25:27,825 - nri_service_scraper - INFO - 2.8661239093405357秒待機中...
+2025-04-13 03:25:30,754 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: ヘルスケア・医薬ライフサイエンス (スコア: 3)
+2025-04-13 03:25:30,758 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:25:31,605 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:31,606 - nri_service_scraper - INFO - AIによるインダストリー判定結果: ヘルスケア・医薬ライフサイエンス
+2025-04-13 03:25:37,064 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:37,088 - nri_service_scraper - INFO - 要約を生成しました: Perma Document GxP Editionは、医薬品や医療機器の文書管理に特化したクラウド...
+2025-04-13 03:25:39,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:39,300 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:25:40,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:40,330 - nri_service_scraper - INFO - 生成されたタイトル: Perma Document GxP Edition導入で文書管理効率50%向上！
+2025-04-13 03:25:40,330 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/pd_std.html
+2025-04-13 03:25:41,133 - nri_service_scraper - INFO - 2.0081999385289766秒待機中...
+2025-04-13 03:25:43,184 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 情報通信 (スコア: 3)
+2025-04-13 03:25:43,184 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:25:44,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:44,206 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 情報通信
+2025-04-13 03:25:47,564 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:47,593 - nri_service_scraper - INFO - 要約を生成しました: Perma Document Standard Editionは、ISO9001に準拠した文書管理ク...
+2025-04-13 03:25:48,810 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:48,811 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:25:49,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:49,576 - nri_service_scraper - INFO - 生成されたタイトル: Perma Document導入で文書管理を効率化、60社20,000人が利用
+2025-04-13 03:25:49,577 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/pss.html
+2025-04-13 03:25:50,313 - nri_service_scraper - INFO - 3.9752896395158603秒待機中...
+2025-04-13 03:25:54,332 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 24)
+2025-04-13 03:25:57,514 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:57,516 - nri_service_scraper - INFO - 要約を生成しました: Prime Settlement Service（PSS）は、ポストトレード業務の効率化を目的とした...
+2025-04-13 03:25:58,311 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:58,312 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:25:59,050 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:25:59,051 - nri_service_scraper - INFO - 生成されたタイトル: Prime Settlement Service導入で業務効率化とコスト削減を実現
+2025-04-13 03:25:59,051 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.secure-sketch.com/
+2025-04-13 03:26:03,765 - nri_service_scraper - INFO - 2.6067841688976605秒待機中...
+2025-04-13 03:26:07,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:07,350 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:26:14,056 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:14,059 - nri_service_scraper - INFO - 要約を生成しました: 導入背景として、企業や組織における情報セキュリティの重要性が増している中、従来のセキュリティ評価手法...
+2025-04-13 03:26:14,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:14,858 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:26:15,947 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:15,948 - nri_service_scraper - INFO - 生成されたタイトル: セキュアスケッチ導入で評価効率50%向上、脆弱性迅速特定
+2025-04-13 03:26:15,948 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-secure.co.jp/service/solution/accesscheck
+2025-04-13 03:26:21,193 - nri_service_scraper - INFO - 2.2966725119988176秒待機中...
+2025-04-13 03:26:24,447 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:24,752 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:26:27,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:27,525 - nri_service_scraper - INFO - 要約を生成しました: サイバー攻撃や内部不正の脅威が高まる中、特権ID管理の重要性が増しています。この課題に対処するために...
+2025-04-13 03:26:28,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:28,208 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:26:29,257 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:29,258 - nri_service_scraper - INFO - 生成されたタイトル: SecureCube Access Check導入で特権ID不正利用を防止、セキュリティ強化
+2025-04-13 03:26:29,258 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-secure.co.jp/service/mss/secureprotecht
+2025-04-13 03:26:31,399 - nri_service_scraper - INFO - 3.0662136480210997秒待機中...
+2025-04-13 03:26:35,071 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:35,079 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:26:38,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:38,722 - nri_service_scraper - INFO - 要約を生成しました: マルチクラウド時代において、企業は複数のクラウドサービスを利用する一方で、セキュリティの脆弱性が課題...
+2025-04-13 03:26:40,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:40,037 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:26:41,855 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:41,856 - nri_service_scraper - INFO - 生成されたタイトル: SecurePROtechtのMSS導入で運用コスト30%削減とセキュリティ強化実現
+2025-04-13 03:26:41,857 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://senjufamily.nri.co.jp/
+2025-04-13 03:26:42,555 - nri_service_scraper - INFO - 3.0171983352828624秒待機中...
+2025-04-13 03:26:45,753 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 情報通信 (スコア: 6)
+2025-04-13 03:26:50,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:50,456 - nri_service_scraper - INFO - 要約を生成しました: Senju Familyは、NRIが提供するシステム運用管理ツールで、運用と開発を分離し、システム運...
+2025-04-13 03:26:51,889 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:51,890 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 運用・保守サービス
+2025-04-13 03:26:52,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:26:52,965 - nri_service_scraper - INFO - 生成されたタイトル: Senju Family 2024導入で運用効率化30%向上！
+2025-04-13 03:26:52,966 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/servicenow.html
+2025-04-13 03:26:53,697 - nri_service_scraper - INFO - 3.586517857186057秒待機中...
+2025-04-13 03:26:57,342 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 6)
+2025-04-13 03:27:00,802 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:00,804 - nri_service_scraper - INFO - 要約を生成しました: テレワークの普及に伴い、従来のバックオフィス業務の見直しが求められ、デジタルワークフローの重要性が増...
+2025-04-13 03:27:01,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:01,924 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:27:03,009 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:03,012 - nri_service_scraper - INFO - 生成されたタイトル: ServiceNow「Now Platform」でデジタル業務改革を加速、短期間での実装実現
+2025-04-13 03:27:03,012 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/smartbridge.html
+2025-04-13 03:27:03,549 - nri_service_scraper - INFO - 3.8928115597552897秒待機中...
+2025-04-13 03:27:07,799 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:27:10,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:10,836 - nri_service_scraper - INFO - 要約を生成しました: SmartBridgeは、資産運用会社や証券会社向けの証券STP（Straight-Through ...
+2025-04-13 03:27:11,855 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:11,856 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:27:12,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:12,898 - nri_service_scraper - INFO - 生成されたタイトル: SmartBridgeのSTP技術で業務効率30%向上とリスク軽減
+2025-04-13 03:27:12,898 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/smartbridge_advance.html
+2025-04-13 03:27:13,571 - nri_service_scraper - INFO - 2.310355262530938秒待機中...
+2025-04-13 03:27:15,945 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 16)
+2025-04-13 03:27:19,326 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:19,328 - nri_service_scraper - INFO - 要約を生成しました: SmartBridge Advanceは、資産運用会社向けのSTP推進プラットフォームソリューション...
+2025-04-13 03:27:20,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:20,457 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:27:21,872 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:21,873 - nri_service_scraper - INFO - 生成されたタイトル: SmartBridge Advance導入で運用判断50%向上と業務自動化実現
+2025-04-13 03:27:21,873 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/syntax.html
+2025-04-13 03:27:22,460 - nri_service_scraper - INFO - 2.483507801841725秒待機中...
+2025-04-13 03:27:25,015 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 23)
+2025-04-13 03:27:31,086 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:31,088 - nri_service_scraper - INFO - 要約を生成しました: SYNTAXは、資産管理信託銀行向けに開発されたデータディスクローズシステムで、信託勘定の運用結果を...
+2025-04-13 03:27:32,160 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:32,163 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:27:33,369 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:33,370 - nri_service_scraper - INFO - 生成されたタイトル: SYNTAX導入で信託銀行のデータ開示効率が2倍向上
+2025-04-13 03:27:33,371 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_monolix.html
+2025-04-13 03:27:34,030 - nri_service_scraper - INFO - 3.170919012618084秒待機中...
+2025-04-13 03:27:37,297 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 情報通信 (スコア: 11)
+2025-04-13 03:27:40,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:40,423 - nri_service_scraper - INFO - 要約を生成しました: T-MONOLIXは、資産運用会社向けにNRIが提供するクラウドサービスフレームワークで、ビジネス変...
+2025-04-13 03:27:43,899 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:43,901 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-13 03:27:44,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:44,821 - nri_service_scraper - INFO - 生成されたタイトル: NRIのT-MONOLIX導入でTCO削減と業務価値向上実現
+2025-04-13 03:27:44,822 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_gv.html
+2025-04-13 03:27:45,909 - nri_service_scraper - INFO - 2.3865062344287047秒待機中...
+2025-04-13 03:27:48,351 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 14)
+2025-04-13 03:27:52,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:52,097 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/GVは、資産運用会社向けのグローバルIBORソリューションで、複数の海外拠点で運用を行...
+2025-04-13 03:27:53,530 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:53,532 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:27:54,654 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:27:54,656 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR/GV導入で運用効率30%向上、リスク低減実現
+2025-04-13 03:27:54,656 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_gx.html
+2025-04-13 03:27:55,410 - nri_service_scraper - INFO - 2.227052272704862秒待機中...
+2025-04-13 03:27:57,702 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 23)
+2025-04-13 03:28:01,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:01,435 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/GXは、資産運用会社や信託銀行向けに開発されたフロント・ミドルソリューションです。バッ...
+2025-04-13 03:28:02,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:02,536 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:28:03,559 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:03,560 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR/GX導入で業務効率30%向上、運用分析を強化
+2025-04-13 03:28:03,561 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_gx_look.html
+2025-04-13 03:28:04,162 - nri_service_scraper - INFO - 2.9041785834090197秒待機中...
+2025-04-13 03:28:07,108 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:28:12,187 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:12,190 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/GX Look-through Highwayは、金融法人受益者と運用会社を結ぶルック...
+2025-04-13 03:28:13,278 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:13,280 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:28:14,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:14,428 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR/GX Look-through Highwayで80%データ管理効率化成功
+2025-04-13 03:28:14,428 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_reportassist_edinet.html
+2025-04-13 03:28:15,097 - nri_service_scraper - INFO - 2.2202116887207275秒待機中...
+2025-04-13 03:28:17,359 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 15)
+2025-04-13 03:28:20,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:20,878 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/ReportAssist/EDINETは、資産運用会社向けに次世代EDINET（全文イ...
+2025-04-13 03:28:21,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:21,756 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:28:23,016 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:23,017 - nri_service_scraper - INFO - 生成されたタイトル: T-STARのEDINET対応で業務効率50%向上、迅速な提出実現
+2025-04-13 03:28:23,017 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_reportassist_advisor.html
+2025-04-13 03:28:23,786 - nri_service_scraper - INFO - 2.7092359766403秒待機中...
+2025-04-13 03:28:26,545 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 16)
+2025-04-13 03:28:30,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:30,044 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/ReportAssist（RA顧問）は、資産運用会社や信託銀行向けに特化した投資顧問レ...
+2025-04-13 03:28:31,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:31,313 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:28:32,232 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:32,233 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR報告書作成支援で業務効率化、災害対策も強化
+2025-04-13 03:28:32,233 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_rx.html
+2025-04-13 03:28:32,870 - nri_service_scraper - INFO - 3.440323128505244秒待機中...
+2025-04-13 03:28:36,356 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 資産運用 (スコア: 22)
+2025-04-13 03:28:40,092 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:40,106 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/RXは、資産運用会社向けの非投信業務バックオフィスソリューションであり、個別ポートフォ...
+2025-04-13 03:28:41,243 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:41,243 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:28:42,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:42,065 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR/RX導入で投資顧問業務効率化、30%コスト削減実現
+2025-04-13 03:28:42,065 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/t_star_tx.html
+2025-04-13 03:28:42,749 - nri_service_scraper - INFO - 3.2105632215197684秒待機中...
+2025-04-13 03:28:46,034 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 20)
+2025-04-13 03:28:50,566 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:50,573 - nri_service_scraper - INFO - 要約を生成しました: T-STAR/TXは、資産運用会社向けのバックオフィスソリューションで、投資信託の信託財産管理や基準...
+2025-04-13 03:28:51,446 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:51,447 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:28:52,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:28:52,550 - nri_service_scraper - INFO - 生成されたタイトル: T-STAR/TX導入で信託業務80%シェア達成、運営負荷軽減
+2025-04-13 03:28:52,550 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/the_star.html
+2025-04-13 03:28:53,347 - nri_service_scraper - INFO - 2.6097703794145017秒待機中...
+2025-04-13 03:28:56,016 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 24)
+2025-04-13 03:29:01,301 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:01,303 - nri_service_scraper - INFO - 要約を生成しました: 「THE STAR」は、証券会社向けの総合バックオフィスシステムであり、リアルタイムな取引処理が求め...
+2025-04-13 03:29:02,438 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:02,440 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:29:03,242 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:03,243 - nri_service_scraper - INFO - 生成されたタイトル: 「THE STAR導入で業務効率化、取引処理の安定性向上」
+2025-04-13 03:29:03,243 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.dsb-is.co.jp/products/crisp
+2025-04-13 03:29:05,265 - nri_service_scraper - INFO - 3.9942514212204694秒待機中...
+2025-04-13 03:29:09,307 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 12)
+2025-04-13 03:29:13,230 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:13,238 - nri_service_scraper - INFO - 要約を生成しました: TIMS-AMLは、証券会社向けの総合リスク管理システムで、マネーロンダリングやテロ資金供与対策の強...
+2025-04-13 03:29:14,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:14,425 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:29:15,547 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:15,548 - nri_service_scraper - INFO - 生成されたタイトル: TIMS-AML導入で証券会社のリスク管理効率化40%向上
+2025-04-13 03:29:15,552 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.dsb-is.co.jp/products/tims
+2025-04-13 03:29:17,351 - nri_service_scraper - INFO - 2.5034320525629177秒待機中...
+2025-04-13 03:29:19,880 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 8)
+2025-04-13 03:29:25,409 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:25,413 - nri_service_scraper - INFO - 要約を生成しました: 売買審査管理システム「TIMS」は、2006年に施行された制度に基づき、証券会社が投資家の取引をモニ...
+2025-04-13 03:29:26,607 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:26,608 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:29:27,673 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:27,676 - nri_service_scraper - INFO - 生成されたタイトル: 証券会社向けTIMS導入で不公正取引自動抽出実現
+2025-04-13 03:29:27,676 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.traina.ai/
+2025-04-13 03:29:30,284 - nri_service_scraper - INFO - 2.038110176278477秒待機中...
+2025-04-13 03:29:32,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:32,918 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:29:37,462 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:37,463 - nri_service_scraper - INFO - 要約を生成しました: 導入背景として、企業の顧客対応における品質向上と顧客体験（CX）の重要性が挙げられます。特に、FAQ...
+2025-04-13 03:29:38,565 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:38,581 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-13 03:29:39,726 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:39,727 - nri_service_scraper - INFO - 生成されたタイトル: 「TRAINA導入で顧客対応速度50%向上、CX向上を実現」
+2025-04-13 03:29:39,728 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/trimaster_dcport.html
+2025-04-13 03:29:40,318 - nri_service_scraper - INFO - 3.298135160036793秒待機中...
+2025-04-13 03:29:43,666 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 情報通信 (スコア: 3)
+2025-04-13 03:29:43,666 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:29:44,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:44,377 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 金融サービス
+2025-04-13 03:29:47,689 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:47,689 - nri_service_scraper - INFO - 要約を生成しました: 「TriMaster/DCPort」は、確定拠出年金業務のデータ交換を効率化するために開発されたシス...
+2025-04-13 03:29:48,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:48,788 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:29:50,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:50,139 - nri_service_scraper - INFO - 生成されたタイトル: 「TriMaster/DCPort導入でデータ処理効率50%向上」
+2025-04-13 03:29:50,139 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/trimaster_smartport.html
+2025-04-13 03:29:50,783 - nri_service_scraper - INFO - 3.92821919304319秒待機中...
+2025-04-13 03:29:54,766 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:29:58,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:58,363 - nri_service_scraper - INFO - 要約を生成しました: 「TriMaster/SmartPort」は、金融機関間および内部での電子データ交換を効率化するため...
+2025-04-13 03:29:59,451 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:29:59,453 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:30:00,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:00,220 - nri_service_scraper - INFO - 生成されたタイトル: 大手銀行向けTriMasterがデータ処理精度を50%向上
+2025-04-13 03:30:00,221 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://truenavi.net/
+2025-04-13 03:30:00,498 - nri_service_scraper - INFO - 2.5319283808630546秒待機中...
+2025-04-13 03:30:03,063 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 官公庁・地方自治体・公的機関 (スコア: 6)
+2025-04-13 03:30:06,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:06,653 - nri_service_scraper - INFO - 要約を生成しました: TrueNavi（トゥルーナビ）は、野村総合研究所が企業向けに提供するインターネットリサーチサービス...
+2025-04-13 03:30:07,568 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:07,569 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:30:08,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:08,699 - nri_service_scraper - INFO - 生成されたタイトル: 野村総合研究所のTrueNaviで戦略策定を2倍効率化
+2025-04-13 03:30:08,700 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-secure.co.jp/service/solution/uni-id_libra
+2025-04-13 03:30:11,832 - nri_service_scraper - INFO - 2.270439671158327秒待機中...
+2025-04-13 03:30:14,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:14,941 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:30:17,807 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:17,809 - nri_service_scraper - INFO - 要約を生成しました: Uni-ID Libraは、BtoCサービス向けの顧客ID統合・管理ソリューションであり、顧客の認証...
+2025-04-13 03:30:18,571 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:18,572 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:30:19,753 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:19,755 - nri_service_scraper - INFO - 生成されたタイトル: Uni-ID Libra導入で顧客管理効率30%向上とセキュリティ強化
+2025-04-13 03:30:19,756 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/value_direct.html
+2025-04-13 03:30:20,428 - nri_service_scraper - INFO - 2.21547058519734秒待機中...
+2025-04-13 03:30:22,704 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 16)
+2025-04-13 03:30:26,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:26,001 - nri_service_scraper - INFO - 要約を生成しました: Value Directは、地方銀行や信託銀行向けに提供されるインターネットバンキングの共同利用型サ...
+2025-04-13 03:30:26,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:26,922 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:30:27,637 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:27,638 - nri_service_scraper - INFO - 生成されたタイトル: Value Direct、直感的デザインで利用率30%向上とコスト削減実現
+2025-04-13 03:30:27,639 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.ubsecure.jp/vex
+2025-04-13 03:30:31,254 - nri_service_scraper - INFO - 3.776679439535183秒待機中...
+2025-04-13 03:30:35,105 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:30:35,105 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:30:35,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:35,933 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:30:39,518 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:39,520 - nri_service_scraper - INFO - 要約を生成しました: Vexは、17年以上にわたり選ばれている国内シェアナンバーワンのWebアプリケーション脆弱性診断ツー...
+2025-04-13 03:30:40,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:40,646 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:30:41,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:41,446 - nri_service_scraper - INFO - 生成されたタイトル: Vexで脆弱性診断を強化、17年の信頼で安全運用実現
+2025-04-13 03:30:41,446 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/volcs.html
+2025-04-13 03:30:42,153 - nri_service_scraper - INFO - 3.707410302384868秒待機中...
+2025-04-13 03:30:45,920 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 12)
+2025-04-13 03:30:50,270 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:50,271 - nri_service_scraper - INFO - 要約を生成しました: VOLCS（フォルクス）は、金融機関や企業向けに「期日管理」「資金管理」「為替管理」のソリューション...
+2025-04-13 03:30:51,264 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:51,267 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:30:52,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:52,214 - nri_service_scraper - INFO - 生成されたタイトル: VOLCSの資金管理で業務効率2倍向上、リスク軽減を実現
+2025-04-13 03:30:52,215 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/advisor_platform.html
+2025-04-13 03:30:52,459 - nri_service_scraper - INFO - 2.364292154338852秒待機中...
+2025-04-13 03:30:54,878 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 7)
+2025-04-13 03:30:58,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:58,662 - nri_service_scraper - INFO - 要約を生成しました: 近年、金融リテール営業が顧客志向の「提案型営業」にシフトする中、営業担当者にはアドバイザリー業務の強...
+2025-04-13 03:30:59,588 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:30:59,590 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:31:00,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:00,510 - nri_service_scraper - INFO - 生成されたタイトル: 「NRIアドバイザープラットフォーム導入で提案効率2倍向上」
+2025-04-13 03:31:00,510 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-secure.co.jp/service/solution/crypto
+2025-04-13 03:31:03,159 - nri_service_scraper - INFO - 3.9255385054389356秒待機中...
+2025-04-13 03:31:07,152 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 3)
+2025-04-13 03:31:07,152 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:31:07,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:07,570 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 金融サービス
+2025-04-13 03:31:11,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:11,163 - nri_service_scraper - INFO - 要約を生成しました: 「クリプト便」は、情報セキュリティの専門家が提供するファイル転送・共有サービスです。背景には、機密情...
+2025-04-13 03:31:12,388 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:12,390 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:31:13,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:13,547 - nri_service_scraper - INFO - 生成されたタイトル: クリプト便、13年連続売上シェアNo.1の高セキュリティ提供
+2025-04-13 03:31:13,547 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/site_improve.html
+2025-04-13 03:31:15,231 - nri_service_scraper - INFO - 2.2050795840665445秒待機中...
+2025-04-13 03:31:17,494 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 1)
+2025-04-13 03:31:17,494 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:31:18,020 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:18,021 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:31:20,990 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:20,991 - nri_service_scraper - INFO - 要約を生成しました: WEBサイト改善において、担当者の主観や表面的なデザイン変更では効果が薄いという課題があります。NR...
+2025-04-13 03:31:22,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:22,141 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:31:23,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:23,122 - nri_service_scraper - INFO - 生成されたタイトル: NRIのサイト改善診断でUI/UX効果50%向上の実現
+2025-04-13 03:31:23,122 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-secure.co.jp/service/mss/log_monitoring
+2025-04-13 03:31:24,919 - nri_service_scraper - INFO - 3.7685902881246145秒待機中...
+2025-04-13 03:31:29,613 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:29,615 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:31:33,179 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:33,182 - nri_service_scraper - INFO - 要約を生成しました: セキュリティログ監視サービス「NeoSOC」は、企業が抱えるセキュリティインシデントの早期発見を目的...
+2025-04-13 03:31:35,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:35,217 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:31:36,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:36,045 - nri_service_scraper - INFO - 生成されたタイトル: 「NeoSOC導入でセキュリティインシデント発見率2倍向上」
+2025-04-13 03:31:36,045 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/human_resource_develop.html
+2025-04-13 03:31:36,805 - nri_service_scraper - INFO - 2.5123478890836655秒待機中...
+2025-04-13 03:31:39,387 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 人材サービス (スコア: 3)
+2025-04-13 03:31:39,388 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:31:40,960 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:40,963 - nri_service_scraper - INFO - AIによるインダストリー判定結果: 人材サービス
+2025-04-13 03:31:44,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:44,550 - nri_service_scraper - INFO - 要約を生成しました: デザイン人材育成サービスは、ビジネスシーンにクリエイティブな視点を取り入れることを目的としたNRIの...
+2025-04-13 03:31:45,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:45,772 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:31:46,766 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:46,770 - nri_service_scraper - INFO - 生成されたタイトル: NRIの「SPICES」でクリエイティブ思考を実現、業務革新を促進
+2025-04-13 03:31:46,771 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.pcls.jp/zoom/
+2025-04-13 03:31:48,439 - nri_service_scraper - INFO - 3.832112250086692秒待機中...
+2025-04-13 03:31:52,337 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 官公庁・地方自治体・公的機関 (スコア: 8)
+2025-04-13 03:31:55,718 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:55,720 - nri_service_scraper - INFO - 要約を生成しました: デジタルワークプレイス for Zoomは、ハイブリッドワークを実現するための支援を行うNRIのサー...
+2025-04-13 03:31:56,933 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:56,935 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:31:57,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:31:57,911 - nri_service_scraper - INFO - 生成されたタイトル: NRIのデジタルワークプレイス for Zoomで運用効率化30%達成
+2025-04-13 03:31:57,912 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/dwp.html
+2025-04-13 03:31:58,728 - nri_service_scraper - INFO - 3.5868269820326297秒待機中...
+2025-04-13 03:32:02,391 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 6)
+2025-04-13 03:32:06,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:06,367 - nri_service_scraper - INFO - 要約を生成しました: デジタルワークプレイス事業は、近年の働き方の変化に対応し、安定したインフラを基にした新たなワークスタ...
+2025-04-13 03:32:07,276 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:07,277 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-13 03:32:08,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:08,408 - nri_service_scraper - INFO - 生成されたタイトル: 「デジタルワークプレイスが情報価値を2倍化し成長促進」
+2025-04-13 03:32:08,408 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/document-creation_outsourcing_service.html
+2025-04-13 03:32:09,034 - nri_service_scraper - INFO - 3.298481521787518秒待機中...
+2025-04-13 03:32:12,399 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 19)
+2025-04-13 03:32:16,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:16,030 - nri_service_scraper - INFO - 要約を生成しました: NRIフィナンシャル・グラフィックス株式会社（NRI-FG）は、金融業界向けのドキュメント作成・印刷...
+2025-04-13 03:32:17,208 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:17,209 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:32:18,231 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:18,233 - nri_service_scraper - INFO - 生成されたタイトル: NRI-FG、ドキュメント業務効率40%向上と標準化実現
+2025-04-13 03:32:18,233 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/package_cloud.html
+2025-04-13 03:32:18,784 - nri_service_scraper - INFO - 2.1974757797930886秒待機中...
+2025-04-13 03:32:21,051 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 15)
+2025-04-13 03:32:26,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:26,126 - nri_service_scraper - INFO - 要約を生成しました: NRIは、2010年に「SAP HANA」を導入し、2015年にはAWS上に「SAP AFS」を実装...
+2025-04-13 03:32:27,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:27,347 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-13 03:32:28,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:28,634 - nri_service_scraper - INFO - 生成されたタイトル: NRI、SAP HANA導入で業務効率30%向上を実現
+2025-04-13 03:32:28,636 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri-digital.jp/marketingdx/
+2025-04-13 03:32:31,888 - nri_service_scraper - INFO - 3.378136862319514秒待機中...
+2025-04-13 03:32:35,374 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 産業機械 (スコア: 9)
+2025-04-13 03:32:38,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:38,924 - nri_service_scraper - INFO - 要約を生成しました: NRIデジタルは、マーケティングDXを通じて顧客体験の変革を目指している。特に、オンラインとオフライ...
+2025-04-13 03:32:40,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:40,187 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:32:41,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:41,254 - nri_service_scraper - INFO - 生成されたタイトル: NRIデジタル、OMO OnBoard導入で顧客体験を2倍向上
+2025-04-13 03:32:41,255 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/mc_data_pf.html
+2025-04-13 03:32:42,013 - nri_service_scraper - INFO - 2.256762805825004秒待機中...
+2025-04-13 03:32:44,326 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:32:44,326 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:32:45,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:45,167 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:32:48,450 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:48,467 - nri_service_scraper - INFO - 要約を生成しました: 近年、北米ではデータを活用してビジネスモデルを変革する企業が増加していますが、最適なテクノロジー選定...
+2025-04-13 03:32:49,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:49,556 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: データマネジメント・分析
+2025-04-13 03:32:50,539 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:50,542 - nri_service_scraper - INFO - 生成されたタイトル: NRIのマルチクラウド型プラットフォームでデータ活用を加速
+2025-04-13 03:32:50,542 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/wrap.html
+2025-04-13 03:32:51,639 - nri_service_scraper - INFO - 3.833769648054095秒待機中...
+2025-04-13 03:32:55,586 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 18)
+2025-04-13 03:32:59,074 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:32:59,087 - nri_service_scraper - INFO - 要約を生成しました: 富裕層向けのラップ口座サービスにおいて、営業管理や資産運用管理、顧客向けレポーティングを支援するトー...
+2025-04-13 03:33:00,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:00,153 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:33:01,163 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:01,172 - nri_service_scraper - INFO - 生成されたタイトル: 野村総合研究所「WrapFlow」で営業効率30%向上と報告自動化実現
+2025-04-13 03:33:01,173 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/about_fis.html
+2025-04-13 03:33:02,864 - nri_service_scraper - INFO - 2.9399103796673742秒待機中...
+2025-04-13 03:33:05,856 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 12)
+2025-04-13 03:33:09,944 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:09,947 - nri_service_scraper - INFO - 要約を生成しました: NRIは、海外向けソリューション「NRI Financial Solutions」を展開し、金融業界...
+2025-04-13 03:33:12,532 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:12,536 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:33:13,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:13,241 - nri_service_scraper - INFO - 生成されたタイトル: NRI、金融システム最適化でグローバル対応を強化
+2025-04-13 03:33:13,242 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/cloud_risk.html
+2025-04-13 03:33:14,096 - nri_service_scraper - INFO - 3.194410897146512秒待機中...
+2025-04-13 03:33:17,349 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 金融サービス (スコア: 16)
+2025-04-13 03:33:20,490 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:20,504 - nri_service_scraper - INFO - 要約を生成しました: 金融機関向けクラウドリスク管理支援サービスは、金融機関がパブリッククラウドを利用する際のリスクを評価...
+2025-04-13 03:33:22,060 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:22,064 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-13 03:33:23,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:23,099 - nri_service_scraper - INFO - 生成されたタイトル: NRI、金融機関向けクラウドリスク管理で安全性向上を実現
+2025-04-13 03:33:23,099 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/anaplan.html
+2025-04-13 03:33:23,836 - nri_service_scraper - INFO - 2.750261603882225秒待機中...
+2025-04-13 03:33:26,660 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 6)
+2025-04-13 03:33:30,221 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:30,227 - nri_service_scraper - INFO - 要約を生成しました: 企業や組織における計画業務は、迅速な意思決定が求められる中で、実績データの収集に偏り、計画のシミュレ...
+2025-04-13 03:33:31,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:31,586 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:33:32,989 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:32,992 - nri_service_scraper - INFO - 生成されたタイトル: NRI、Anaplan導入で計画業務効率50%向上を実現
+2025-04-13 03:33:32,993 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/coupa.html
+2025-04-13 03:33:33,694 - nri_service_scraper - INFO - 2.094698209006534秒待機中...
+2025-04-13 03:33:35,858 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 6)
+2025-04-13 03:33:39,439 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:39,447 - nri_service_scraper - INFO - 要約を生成しました: 企業の購買業務改革が求められる中、特に間接材のコスト削減が重要な課題として浮上しています。日本の上場...
+2025-04-13 03:33:40,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:40,611 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 03:33:41,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:41,548 - nri_service_scraper - INFO - 生成されたタイトル: NRI、Coupa導入で間接材コスト10%削減と業務効率化実現
+2025-04-13 03:33:41,549 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/theme/dx/manufacturing_dx.html
+2025-04-13 03:33:43,024 - nri_service_scraper - INFO - 3.3787479881839553秒待機中...
+2025-04-13 03:33:46,459 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 15)
+2025-04-13 03:33:49,791 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:49,793 - nri_service_scraper - INFO - 要約を生成しました: 製造業は従来の販売モデルから、顧客ニーズに基づく「モノ＋コト」売りへのシフトが求められています。この...
+2025-04-13 03:33:51,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:51,601 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務プロセス自動化
+2025-04-13 03:33:52,961 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:52,963 - nri_service_scraper - INFO - 生成されたタイトル: NRIの支援で製造業が業務効率化30%向上を実現
+2025-04-13 03:33:52,963 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/it_diagnose.html
+2025-04-13 03:33:54,153 - nri_service_scraper - INFO - 3.1913956075702936秒待機中...
+2025-04-13 03:33:57,392 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 3)
+2025-04-13 03:33:57,392 - nri_service_scraper - INFO - スコアが低いため、AIによる判定を試みます
+2025-04-13 03:33:58,036 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:33:58,039 - nri_service_scraper - INFO - AIによるインダストリー判定結果: テクノロジー
+2025-04-13 03:34:01,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:01,251 - nri_service_scraper - INFO - 要約を生成しました: 定期IT運営診断は、経営環境の変化に応じたIT部門の能動的な対応を目指す取り組みです。課題として、I...
+2025-04-13 03:34:02,066 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:02,067 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-13 03:34:03,106 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:03,108 - nri_service_scraper - INFO - 生成されたタイトル: NRIの診断体系導入でIT運営の迅速可視化を実現
+2025-04-13 03:34:03,108 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/co2_net_zero.html
+2025-04-13 03:34:03,788 - nri_service_scraper - INFO - 2.004433067654227秒待機中...
+2025-04-13 03:34:05,872 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: 銀行・証券 (スコア: 16)
+2025-04-13 03:34:10,059 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:10,064 - nri_service_scraper - INFO - 要約を生成しました: 投融資ポートフォリオのCO2排出量ネットゼロ支援サービスは、金融機関向けに、地域性やポートフォリオ特...
+2025-04-13 03:34:11,394 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:11,400 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: サステナビリティ・グリーンIT
+2025-04-13 03:34:12,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:12,104 - nri_service_scraper - INFO - 生成されたタイトル: 「金融機関向けCO2排出量ネットゼロ支援で収益機会創出」
+2025-04-13 03:34:12,105 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/industry/consumer_circ_services/ryutsu_solution.html
+2025-04-13 03:34:12,892 - nri_service_scraper - INFO - 3.9373923456441453秒待機中...
+2025-04-13 03:34:16,923 - nri_service_scraper - INFO - 重み付きキーワードマッチングによるインダストリー判定結果: テクノロジー (スコア: 16)
+2025-04-13 03:34:20,616 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:20,619 - nri_service_scraper - INFO - 要約を生成しました: 流通ソリューション事業は、1978年にセブン-イレブンの発注システム開発から始まり、ITを駆使した流...
+2025-04-13 03:34:21,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:21,830 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業界特化ソリューション
+2025-04-13 03:34:23,064 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 03:34:23,067 - nri_service_scraper - INFO - 生成されたタイトル: セブン-イレブンのNCC開発で日販増加と配送時間短縮達成
+2025-04-13 03:34:23,122 - nri_scraper - INFO - データをCSVファイルに保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nri/output/20250413_031417/nri_cases_20250413_033423.csv
+2025-04-13 03:34:23,124 - nri_scraper - INFO - データをJSONファイルに保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nri/output/20250413_031417/nri_cases_20250413_033423.json

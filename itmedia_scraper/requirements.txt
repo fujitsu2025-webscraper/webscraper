@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+lxml
+selenium
+webdriver-manager
+python-dotenv # .envファイル読み込み用
+openai # GPT利用のため追加
+python-dotenv

@@ -1,0 +1,27 @@
+2025-04-13 01:29:40,482 - nri_scraper - INFO - WebDriverを初期化しています...
+2025-04-13 01:29:40,482 - WDM - INFO - ====== WebDriver manager ======
+2025-04-13 01:29:40,745 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 01:29:40,876 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-13 01:29:40,923 - WDM - INFO - Driver [/Users/kitamotoshintarou/.wdm/drivers/chromedriver/mac64/135.0.7049.84/chromedriver-mac-arm64/chromedriver] found in cache
+2025-04-13 01:29:42,718 - nri_scraper - INFO - WebDriverの初期化が完了しました
+2025-04-13 01:29:42,719 - nri_service_scraper - INFO - ページにアクセス中: https://www.nri.com/jp/service/solution/index.html
+2025-04-13 01:29:44,880 - nri_service_scraper - INFO - 3.9475970175280333秒待機中...
+2025-04-13 01:29:48,858 - nri_service_scraper - INFO - ページソースの長さ: 475859文字
+2025-04-13 01:29:48,863 - nri_service_scraper - INFO - ページタイトル: サービス・ソリューション一覧 | サービス・ソリューション | 野村総合研究所(NRI)
+2025-04-13 01:29:48,863 - nri_service_scraper - INFO - ページの読み込みを待機中...
+2025-04-13 01:29:48,869 - nri_service_scraper - INFO - サービス一覧を抽出中...
+2025-04-13 01:29:48,880 - nri_service_scraper - INFO - 113個のサービスアイテムを発見しました
+2025-04-13 01:29:50,612 - nri_service_scraper - INFO - 合計113件のサービスを抽出しました
+2025-04-13 01:29:50,613 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://www.nri.com/jp/service/solution/allain.html
+2025-04-13 01:29:51,173 - nri_service_scraper - INFO - 2.550457282778834秒待機中...
+2025-04-13 01:29:54,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 01:30:00,045 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 01:30:00,047 - nri_service_scraper - INFO - 要約を生成しました: Allainは、証券会社のホールセール部門とリテール部門をつなぐプラットフォーム型サービスであり、金...
+2025-04-13 01:30:00,817 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 01:30:00,818 - nri_service_scraper - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-13 01:30:01,789 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 01:30:01,791 - nri_service_scraper - INFO - 生成されたタイトル: Allainプラットフォームで取引効率化、100社超の金融業者に導入
+2025-04-13 01:30:01,791 - nri_service_scraper - INFO - 詳細ページにアクセス中: https://aslead.nri.co.jp/
+2025-04-13 01:30:08,382 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113f0c510>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/3f3be25491a44814ce5fa6f8fe64c7a6
+2025-04-13 01:30:08,384 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113f0dcd0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/3f3be25491a44814ce5fa6f8fe64c7a6
+2025-04-13 01:30:08,385 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x113f0e390>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/3f3be25491a44814ce5fa6f8fe64c7a6

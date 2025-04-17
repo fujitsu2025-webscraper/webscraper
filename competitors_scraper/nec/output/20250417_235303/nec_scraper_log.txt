@@ -1,0 +1,1003 @@
+2025-04-17 23:53:03,074 - INFO - ブラウザを表示して実行します
+2025-04-17 23:53:03,074 - INFO - WebDriverを初期化中...
+2025-04-17 23:53:04,287 - INFO - ページにアクセス中: https://jpn.nec.com/case/index.html
+2025-04-17 23:53:06,579 - INFO - 4.001300272890567秒待機中...
+2025-04-17 23:53:10,588 - INFO - ページソースの長さ: 91145文字
+2025-04-17 23:53:10,590 - INFO - ページタイトル: 導入事例 | NEC
+2025-04-17 23:53:10,590 - INFO - ページの読み込みを待機中...
+2025-04-17 23:53:10,593 - INFO - 事例リストと「もっと見る」ボタンを探しています...
+2025-04-17 23:53:10,597 - INFO - 事例リスト(NFC-SrchResultList)を発見しました
+2025-04-17 23:53:10,613 - INFO - 「もっと見る」ボタン(NFC-SrchResultListMore)を発見しました: もっと見る
+2025-04-17 23:53:10,613 - INFO - 「もっと見る」ボタンを使用して事例を読み込みます（最大クリック回数: 1回）...
+2025-04-17 23:53:10,616 - INFO - 初期の事例リンク数: 8
+2025-04-17 23:53:11,623 - INFO - 1回目の「もっと見る」ボタンをクリック...（残り0回）
+2025-04-17 23:53:11,688 - INFO - 3.0023271373072826秒待機中...
+2025-04-17 23:53:14,696 - INFO - 現在の事例リンク数: 16
+2025-04-17 23:53:14,696 - INFO - 新しい事例が 8 件読み込まれました
+2025-04-17 23:53:14,704 - INFO - 「もっと見る」ボタンを 1 回クリックしました
+2025-04-17 23:53:14,704 - INFO - 事例リストから情報を抽出します...
+2025-04-17 23:53:14,710 - INFO - 事例リスト内のアイテム数: 42
+2025-04-17 23:53:14,727 - INFO - 事例を取得: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理
+2025-04-17 23:53:14,729 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,731 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,746 - INFO - 事例を取得: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例
+2025-04-17 23:53:14,749 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,762 - INFO - 事例を取得: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTech
+2025-04-17 23:53:14,765 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,767 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,770 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,772 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,786 - INFO - 事例を取得: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他
+2025-04-17 23:53:14,788 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,790 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,802 - INFO - 事例を取得: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例
+2025-04-17 23:53:14,804 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,816 - INFO - 事例を取得: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例
+2025-04-17 23:53:14,818 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,830 - INFO - 事例を取得: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業
+2025-04-17 23:53:14,832 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,834 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,836 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,848 - INFO - 事例を取得: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセス
+2025-04-17 23:53:14,850 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,862 - INFO - 事例を取得: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例
+2025-04-17 23:53:14,864 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,875 - INFO - 事例を取得: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例
+2025-04-17 23:53:14,878 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,890 - INFO - 事例を取得: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革
+2025-04-17 23:53:14,892 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,894 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,906 - INFO - 事例を取得: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例
+2025-04-17 23:53:14,908 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,919 - INFO - 事例を取得: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例
+2025-04-17 23:53:14,921 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,933 - INFO - 事例を取得: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他
+2025-04-17 23:53:14,935 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,937 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,939 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,951 - INFO - 事例を取得: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証
+2025-04-17 23:53:14,953 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,964 - INFO - 事例を取得: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流
+2025-04-17 23:53:14,966 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000104c0ae10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000104c030ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x000000010474a8d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001047916a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x0000000104786d3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x00000001047d27b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000104785a80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000104bcfc98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000104bd2f64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000104bafa20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000104bd37e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000104ba0b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000104bf39c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000104bf3b50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000104c02cf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-17 23:53:14,966 - INFO - 事例 1: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理の詳細情報を取得中...
+2025-04-17 23:53:14,966 - INFO - 事例: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理の詳細情報を取得中: https://jpn.nec.com/quantum_annealing/case/necplatforms/index.html
+2025-04-17 23:53:17,414 - INFO - 2.4172703616804077秒待機中...
+2025-04-17 23:53:19,858 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:53:20,859 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:53:20,860 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:53:20,861 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:53:21,169 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:53:21,170 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:53:21,170 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:53:21,170 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:53:25,035 - INFO - 要約を生成しました: NECプラットフォームズは、量子コンピューティング技術を活用し、複雑な生産計画立案の自動化に成功しま...
+2025-04-17 23:53:25,977 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-17 23:53:27,408 - INFO - 生成されたタイトル: NEC、量子コンピューティングで生産計画工数90%削減成功
+2025-04-17 23:53:27,408 - INFO - 事例 2: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:53:27,408 - INFO - 事例: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_omron.html
+2025-04-17 23:53:30,986 - INFO - 2.136640978793776秒待機中...
+2025-04-17 23:53:33,144 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:53:34,088 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:53:34,088 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:53:34,088 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:53:34,411 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:53:34,412 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:53:34,412 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:53:34,412 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:53:37,666 - INFO - 要約を生成しました: NECは、業務変革に向けた戦略コンサルティングを提供し、顧客のデジタルトランスフォーメーション（DX...
+2025-04-17 23:53:38,906 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:53:39,690 - INFO - 生成されたタイトル: NECの生成AI活用で東京電力の業務効率化20%向上
+2025-04-17 23:53:39,690 - INFO - 事例 3: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTechの詳細情報を取得中...
+2025-04-17 23:53:39,690 - INFO - 事例: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTechの詳細情報を取得中: https://jpn.nec.com/fintech/case/fukuokahibiki.html
+2025-04-17 23:53:42,964 - INFO - 3.816383796372182秒待機中...
+2025-04-17 23:53:46,807 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:53:46,808 - INFO - URLに基づいて判断されたインダストリー: 銀行・証券
+2025-04-17 23:53:46,808 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:53:46,808 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:53:47,390 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:53:47,390 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:53:47,390 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:53:47,390 - INFO - 【インダストリー更新】インダストリーを更新します: '銀行・証券' -> 'テクノロジー'
+2025-04-17 23:53:51,890 - INFO - 要約を生成しました: 福岡ひびき信用金庫は、金融DXを推進するためにNECと共同で「NEC API サービス for しん...
+2025-04-17 23:53:52,577 - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-17 23:53:53,788 - INFO - 生成されたタイトル: 福岡ひびき信用金庫、NEC APIで口座開設20分の1に短縮
+2025-04-17 23:53:53,788 - INFO - 事例 4: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他の詳細情報を取得中...
+2025-04-17 23:53:53,788 - INFO - 事例: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他の詳細情報を取得中: https://wisdom.nec.com/ja/feature/biometrics/2025032701/index.html?
+2025-04-17 23:53:55,774 - INFO - 3.65821076809082秒待機中...
+2025-04-17 23:53:59,451 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:01,079 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:01,079 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:01,080 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:01,716 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:01,717 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:01,717 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:01,717 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:54:05,724 - INFO - 要約を生成しました: 戸田建設株式会社、YKK-AP株式会社、大和ハウス工業株式会社の3社は、顔認証技術を活用した新たな入...
+2025-04-17 23:54:06,553 - INFO - ソリューションカテゴリを判定しました: セキュリティソリューション
+2025-04-17 23:54:07,526 - INFO - 生成されたタイトル: 戸田建設、YKK AP、大和ハウスが顔認証導入で3000人利用しセキュリティ向上
+2025-04-17 23:54:07,526 - INFO - 事例 5: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:54:07,526 - INFO - 事例: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/blustellar_datautilization.html
+2025-04-17 23:54:09,315 - INFO - 3.2986356435460564秒待機中...
+2025-04-17 23:54:12,640 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:13,516 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:13,516 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:13,516 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:14,229 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:14,230 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:14,230 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:14,230 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:54:17,674 - INFO - 要約を生成しました: NECは、分散したデータと共有されない知見を活用し、企業や社会に価値を生み出すことを目指しています。...
+2025-04-17 23:54:18,390 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:54:19,554 - INFO - 生成されたタイトル: NECのBluStellar導入で意思決定質50%向上、DX促進
+2025-04-17 23:54:19,554 - INFO - 事例 6: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:54:19,554 - INFO - 事例: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/blustellar_digitaltalent.html
+2025-04-17 23:54:23,583 - INFO - 2.150708522490951秒待機中...
+2025-04-17 23:54:25,759 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:26,722 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:26,723 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:26,723 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:27,521 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:27,522 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:27,522 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:27,522 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:54:30,325 - INFO - 要約を生成しました: NECは、非効率な業務やデジタル人材の不足という社会的課題に対し、BluStellar戦略コンサルテ...
+2025-04-17 23:54:31,273 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:54:32,059 - INFO - 生成されたタイトル: NECのBluStellarでDX支援、人材育成強化で業務変革促進
+2025-04-17 23:54:32,059 - INFO - 事例 7: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業の詳細情報を取得中...
+2025-04-17 23:54:32,060 - INFO - 事例: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業の詳細情報を取得中: https://jpn.nec.com/d_signage/cases/shutoko.html
+2025-04-17 23:54:33,157 - INFO - 2.226245250029417秒待機中...
+2025-04-17 23:54:35,407 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:36,125 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:36,125 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:36,126 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:36,487 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:36,488 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:36,488 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:36,488 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:54:40,035 - INFO - 要約を生成しました: 首都高速道路株式会社は、デジタルサイネージの運用に課題がありました。従来はUSBによる手動更新で、情...
+2025-04-17 23:54:41,041 - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-17 23:54:42,234 - INFO - 生成されたタイトル: 首都高速道路、NEC「PanelDirector」で業務効率化実現！
+2025-04-17 23:54:42,234 - INFO - 事例 8: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセスの詳細情報を取得中...
+2025-04-17 23:54:42,234 - INFO - 事例: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセスの詳細情報を取得中: https://jpn.nec.com/quantum_annealing/case/toyota-shokki/index.html
+2025-04-17 23:54:43,358 - INFO - 2.4627947911793617秒待機中...
+2025-04-17 23:54:45,874 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:46,624 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:46,624 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:46,625 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:46,948 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:46,949 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:46,949 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:46,949 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:54:50,632 - INFO - 要約を生成しました: 豊田自動織機では、複雑な出荷計画業務の効率化を目指し、NECの量子コンピューティング技術を導入しまし...
+2025-04-17 23:54:51,805 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-17 23:54:52,714 - INFO - 生成されたタイトル: 豊田自動織機、NEC量子技術で出荷計画を6分の1に短縮
+2025-04-17 23:54:52,714 - INFO - 事例 9: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:54:52,714 - INFO - 事例: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_jp_short.html
+2025-04-17 23:54:53,671 - INFO - 3.8495204616053744秒待機中...
+2025-04-17 23:54:57,541 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:54:58,412 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:54:58,412 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:54:58,412 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:54:58,757 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:54:58,758 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:54:58,758 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:54:58,758 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:55:02,850 - INFO - 要約を生成しました: 東京電力パワーグリッド株式会社は、業務の属人化や担い手不足といった課題に直面しています。これに対し、...
+2025-04-17 23:55:03,896 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:55:04,737 - INFO - 生成されたタイトル: NECの先端技術で東京電力の業務効率30%向上！
+2025-04-17 23:55:04,737 - INFO - 事例 10: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:55:04,737 - INFO - 事例: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/omron.short.html
+2025-04-17 23:55:06,104 - INFO - 3.2909483421755863秒待機中...
+2025-04-17 23:55:09,424 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:55:09,951 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:55:09,951 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:55:09,952 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:55:10,273 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:55:10,274 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:55:10,274 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:55:10,274 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:55:13,492 - INFO - 要約を生成しました: オムロン株式会社は、生成AIの導入に際して、NECの戦略コンサルティングを活用することで、業務課題の...
+2025-04-17 23:55:14,360 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:55:15,186 - INFO - 生成されたタイトル: オムロン、NECの支援で生成AI活用し生産性向上へ
+2025-04-17 23:55:15,186 - INFO - 事例 11: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革の詳細情報を取得中...
+2025-04-17 23:55:15,187 - INFO - 事例: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革の詳細情報を取得中: https://jpn.nec.com/products/bizpc/promotion/hatarakikata/case/toppan/index.html
+2025-04-17 23:55:16,050 - INFO - 2.3647741631905346秒待機中...
+2025-04-17 23:55:18,441 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:55:18,969 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:55:18,969 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:55:18,970 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:55:19,578 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:55:19,579 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:55:19,579 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:55:19,579 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:55:22,467 - INFO - 要約を生成しました: TOPPAN株式会社は「NEC 働き方見える化サービス Plus」を導入し、多様な働き方の実現と生産...
+2025-04-17 23:55:23,212 - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-17 23:55:24,279 - INFO - 生成されたタイトル: TOPPAN、NEC働き方見える化サービスで勤怠管理負担45%軽減！
+2025-04-17 23:55:24,279 - INFO - 事例 12: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:55:24,279 - INFO - 事例: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/omron.html
+2025-04-17 23:55:25,137 - INFO - 3.1607958322982976秒待機中...
+2025-04-17 23:55:28,324 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:55:28,865 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:55:28,865 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:55:28,865 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:55:29,154 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:55:29,155 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:55:29,155 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:55:29,155 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:55:32,652 - INFO - 要約を生成しました: オムロン株式会社は、生成AIの活用を進める中で、NECの戦略コンサルティングを選択しました。主な課題...
+2025-04-17 23:55:36,132 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:55:36,834 - INFO - 生成されたタイトル: オムロン、NECの「cotomi」で生成AI導入加速へ！
+2025-04-17 23:55:36,834 - INFO - 事例 13: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例の詳細情報を取得中...
+2025-04-17 23:55:36,834 - INFO - 事例: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_jp.html
+2025-04-17 23:55:37,915 - INFO - 3.0441393144819946秒待機中...
+2025-04-17 23:55:40,980 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:55:41,604 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:55:41,604 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:55:41,605 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:55:41,919 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:55:41,919 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:55:41,919 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:55:41,919 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:55:44,985 - INFO - 要約を生成しました: 東京電力パワーグリッド株式会社は、老朽化した配電設備のメンテナンスや業務の属人化、非効率なシステムの...
+2025-04-17 23:55:46,616 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-17 23:55:47,481 - INFO - 生成されたタイトル: 東京電力、AI活用で配電設備業務効率40%向上！
+2025-04-17 23:55:47,481 - INFO - 事例 14: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他の詳細情報を取得中...
+2025-04-17 23:55:47,481 - INFO - 事例: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他の詳細情報を取得中: https://jpn.nec.com/fintech/case/sevenbank.html
+2025-04-17 23:55:48,914 - INFO - 2.4893835130894826秒待機中...
+2025-04-17 23:55:51,428 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:55:51,429 - INFO - URLに基づいて判断されたインダストリー: 銀行・証券
+2025-04-17 23:55:51,429 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:55:51,429 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:55:51,730 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:55:51,731 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:55:51,731 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:55:51,731 - INFO - 【インダストリー更新】インダストリーを更新します: '銀行・証券' -> 'テクノロジー'
+2025-04-17 23:55:55,075 - INFO - 要約を生成しました: 株式会社セブン銀行とNECは、デジタル社会の実現に向けた新型（第4世代）ATMを共同開発しました。こ...
+2025-04-17 23:55:55,946 - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-17 23:55:56,695 - INFO - 生成されたタイトル: セブン銀行とNEC、顔認証でATM利便性2倍向上！
+2025-04-17 23:55:56,695 - INFO - 事例 15: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証の詳細情報を取得中...
+2025-04-17 23:55:56,695 - INFO - 事例: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証の詳細情報を取得中: https://jpn.nec.com/residence/work/sekisuihouse/index.html
+2025-04-17 23:55:57,586 - INFO - 2.6415513274909697秒待機中...
+2025-04-17 23:56:00,261 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:56:00,827 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-17 23:56:00,827 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:56:00,828 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:56:01,279 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:56:01,279 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:56:01,279 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:56:01,279 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'テクノロジー'
+2025-04-17 23:56:04,720 - INFO - 要約を生成しました: 積水ハウス株式会社は、顔認証技術を活用して新たなマンションサービス「グランドメゾン溝の口の杜」を実現...
+2025-04-17 23:56:05,413 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-17 23:56:06,204 - INFO - 生成されたタイトル: 積水ハウス、NEC顔認証で住民満足99%達成！
+2025-04-17 23:56:06,205 - INFO - 事例 16: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流の詳細情報を取得中...
+2025-04-17 23:56:06,205 - INFO - 事例: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流の詳細情報を取得中: https://jpn.nec.com/kurumie/nicigas-unyu.html
+2025-04-17 23:56:07,251 - INFO - 2.5736105721999847秒待機中...
+2025-04-17 23:56:09,851 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-17 23:56:09,852 - INFO - URLに基づいて判断されたインダストリー: 運輸・物流
+2025-04-17 23:56:09,852 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-17 23:56:09,852 - INFO - Google APIで検索中: NEC 業種 業界 セクター 事業内容
+2025-04-17 23:56:10,160 - INFO - Google検索結果を取得しました: 事業内容: 企業情報 | NEC NECの事業. ITサービス事業. パブリック、エンタープライズ、クロスインダストリーを中心とした国内IT事業とDGDF(デジタル ... NECネクサソリューション...
+2025-04-17 23:56:10,161 - INFO - 企業名マッピングからインダストリーを判定: NEC -> テクノロジー
+2025-04-17 23:56:10,161 - INFO - 【分類結果】企業: NEC, インダストリー: テクノロジー (Google API使用)
+2025-04-17 23:56:10,161 - INFO - 【インダストリー更新】インダストリーを更新します: '運輸・物流' -> 'テクノロジー'
+2025-04-17 23:56:15,147 - INFO - 要約を生成しました: 日本瓦斯運輸整備株式会社は、約400台の社用車の安全運転指導を「事後」から「事前」にシフトし、ヒヤリ...
+2025-04-17 23:56:16,164 - INFO - ソリューションカテゴリを判定しました: IoT・エッジコンピューティング
+2025-04-17 23:56:17,022 - INFO - 生成されたタイトル: 日本瓦斯運輸整備、NEC「くるみえ」でヒヤリハット40%減少
+2025-04-17 23:56:17,029 - INFO - CSVデータを保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nec/output/20250417_235303/nec_cases.csv (16件)
+2025-04-17 23:56:17,029 - INFO - JSONデータを保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nec/output/20250417_235303/nec_cases.json (16件)
+2025-04-17 23:56:17,224 - INFO - スクレイピングが完了しました

@@ -1,0 +1,1003 @@
+2025-04-18 00:11:39,396 - INFO - ブラウザを表示して実行します
+2025-04-18 00:11:39,396 - INFO - WebDriverを初期化中...
+2025-04-18 00:11:43,320 - INFO - ページにアクセス中: https://jpn.nec.com/case/index.html
+2025-04-18 00:11:45,230 - INFO - 4.460103839401456秒待機中...
+2025-04-18 00:11:49,706 - INFO - ページソースの長さ: 91032文字
+2025-04-18 00:11:49,710 - INFO - ページタイトル: 導入事例 | NEC
+2025-04-18 00:11:49,710 - INFO - ページの読み込みを待機中...
+2025-04-18 00:11:49,720 - INFO - 事例リストと「もっと見る」ボタンを探しています...
+2025-04-18 00:11:49,727 - INFO - 事例リスト(NFC-SrchResultList)を発見しました
+2025-04-18 00:11:49,749 - INFO - 「もっと見る」ボタン(NFC-SrchResultListMore)を発見しました: もっと見る
+2025-04-18 00:11:49,749 - INFO - 「もっと見る」ボタンを使用して事例を読み込みます（最大クリック回数: 1回）...
+2025-04-18 00:11:49,754 - INFO - 初期の事例リンク数: 8
+2025-04-18 00:11:50,761 - INFO - 1回目の「もっと見る」ボタンをクリック...（残り0回）
+2025-04-18 00:11:50,810 - INFO - 3.272761913129988秒待機中...
+2025-04-18 00:11:54,100 - INFO - 現在の事例リンク数: 16
+2025-04-18 00:11:54,100 - INFO - 新しい事例が 8 件読み込まれました
+2025-04-18 00:11:54,118 - INFO - 「もっと見る」ボタンを 1 回クリックしました
+2025-04-18 00:11:54,119 - INFO - 事例リストから情報を抽出します...
+2025-04-18 00:11:54,128 - INFO - 事例リスト内のアイテム数: 42
+2025-04-18 00:11:54,149 - INFO - 事例を取得: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理
+2025-04-18 00:11:54,152 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,155 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,168 - INFO - 事例を取得: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例
+2025-04-18 00:11:54,171 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,183 - INFO - 事例を取得: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTech
+2025-04-18 00:11:54,185 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,187 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,189 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,192 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,203 - INFO - 事例を取得: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他
+2025-04-18 00:11:54,205 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,207 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,218 - INFO - 事例を取得: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例
+2025-04-18 00:11:54,220 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,232 - INFO - 事例を取得: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例
+2025-04-18 00:11:54,234 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,245 - INFO - 事例を取得: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業
+2025-04-18 00:11:54,247 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,249 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,251 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,262 - INFO - 事例を取得: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセス
+2025-04-18 00:11:54,264 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,275 - INFO - 事例を取得: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例
+2025-04-18 00:11:54,277 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,288 - INFO - 事例を取得: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例
+2025-04-18 00:11:54,291 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,302 - INFO - 事例を取得: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革
+2025-04-18 00:11:54,304 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,306 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,317 - INFO - 事例を取得: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例
+2025-04-18 00:11:54,320 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,330 - INFO - 事例を取得: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例
+2025-04-18 00:11:54,332 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,343 - INFO - 事例を取得: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他
+2025-04-18 00:11:54,345 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,347 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,349 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,360 - INFO - 事例を取得: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証
+2025-04-18 00:11:54,362 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,373 - INFO - 事例を取得: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流
+2025-04-18 00:11:54,375 - ERROR - 事例アイテムの処理中にエラー: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=135.0.7049.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+0   chromedriver                        0x0000000100d92e10 cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x0000000100d8b0ac cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x00000001008d28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x00000001009196a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010090ed3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010095a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x000000010090da80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000100d57c98 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x0000000100d5af64 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x0000000100d37a20 cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x0000000100d5b7e0 cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x0000000100d28b14 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x0000000100d7b9c4 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x0000000100d7bb50 cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x0000000100d8acf8 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x000000019803af94 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000198035d34 thread_start + 8
+
+2025-04-18 00:11:54,375 - INFO - 事例 1: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理の詳細情報を取得中...
+2025-04-18 00:11:54,375 - INFO - 事例: NECプラットフォームズ
+
+量子コンピューティング技術の活用で
+複雑な生産計画立案の自動化に成功
+～設備稼働率15%向上、計画立案工数90％削減を実現～
+製造・プロセス
+生産管理の詳細情報を取得中: https://jpn.nec.com/quantum_annealing/case/necplatforms/index.html
+2025-04-18 00:11:58,201 - INFO - 2.138309720024521秒待機中...
+2025-04-18 00:12:00,392 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:12:01,717 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:12:06,852 - INFO - 要約を生成しました: NECプラットフォームズは、複雑化する生産計画の立案を自動化するために量子コンピューティング技術を導...
+2025-04-18 00:12:07,705 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-18 00:12:08,496 - INFO - 生成されたタイトル: NEC、量子コンピュータで設備稼働率15%向上と工数90%削減
+2025-04-18 00:12:08,497 - INFO - 除外パターンに一致するため、企業名をスキップ: NEC
+2025-04-18 00:12:08,499 - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:12:08,499 - INFO - 事例 2: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:12:08,499 - INFO - 事例: 動画
+【事例公開中】NECとともに進める業務変革　＃戦略コンサルティング [00:15]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_omron.html
+2025-04-18 00:12:10,441 - INFO - 2.7070200001268603秒待機中...
+2025-04-18 00:12:13,195 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:12:13,710 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:12:17,069 - INFO - 要約を生成しました: NECは、企業の業務変革を支援するため、戦略コンサルティングサービスを提供しています。特に、生成AI...
+2025-04-18 00:12:17,917 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:12:19,212 - INFO - 生成されたタイトル: NECの生成AI活用で東京電力のDX推進を加速
+2025-04-18 00:12:19,213 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '東京電力'
+2025-04-18 00:12:19,213 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '東京電力'
+2025-04-18 00:12:19,213 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:12:19,216 - INFO - Google APIで検索中: 東京電力 業種 業界 セクター 事業内容
+2025-04-18 00:12:19,663 - INFO - Google検索結果を取得しました: 会社概要 | 東京都市サービス株式会社 東京都市サービス株式会社設立 電力業界初の熱供給設備のオペレーション会社として、東京電力株式会社の全額出資で設立. 1989年4月. 日本初の河川水の持つ熱を有...
+2025-04-18 00:12:19,670 - INFO - インダストリーを判定しました: エネルギー・資源・鉱業 (スコア: 25.5)
+2025-04-18 00:12:19,670 - INFO - 【分類結果】企業: 東京電力, インダストリー: エネルギー・資源・鉱業 (Google API使用)
+2025-04-18 00:12:19,670 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'エネルギー・資源・鉱業'
+2025-04-18 00:12:19,671 - INFO - 事例 3: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTechの詳細情報を取得中...
+2025-04-18 00:12:19,671 - INFO - 事例: 福岡ひびき信用金庫様
+
+NECと福岡ひびき信用金庫様で共同開発した、信用金庫向けAPI基盤「NEC API サービス for しんきん」について、課題背景やNECをパートナーに選定した理由、導入後の成果についてご紹介します
+その他業務
+金融機関
+その他
+FinTechの詳細情報を取得中: https://jpn.nec.com/fintech/case/fukuokahibiki.html
+2025-04-18 00:12:23,476 - INFO - 2.7068874429628513秒待機中...
+2025-04-18 00:12:26,232 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:12:26,233 - INFO - URLに基づいて判断されたインダストリー: 銀行・証券
+2025-04-18 00:12:32,040 - INFO - 要約を生成しました: 福岡ひびき信用金庫は、金融DXを加速するため、NECと共同で「NEC API サービス for しん...
+2025-04-18 00:12:33,043 - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-18 00:12:33,832 - INFO - 生成されたタイトル: 福岡ひびき信用金庫、NEC API活用で工数20分の1に削減
+2025-04-18 00:12:33,833 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '福岡ひびき信用金庫'
+2025-04-18 00:12:33,833 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '福岡ひびき信用金庫'
+2025-04-18 00:12:33,833 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:12:33,835 - INFO - Google APIで検索中: 福岡ひびき信用金庫 業種 業界 セクター 事業内容
+2025-04-18 00:12:33,994 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:12:33,994 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'consumer': 'projects/846568400315', 'service': 'customsearch.googleapis.com', 'quota_limit_value': '100', 'quota_metric': 'customsearch.googleapis.com/requests', 'quota_location': 'global', 'quota_limit': 'DefaultPerDayPerProject'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:12:33,994 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:12:33,995 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:12:33,997 - INFO - 事例 4: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他の詳細情報を取得中...
+2025-04-18 00:12:33,997 - INFO - 事例: 取り組み
+戸田建設株式会社様、YKK-AP株式会社様、大和ハウス工業株式会社様
+
+入退ゲートのその先へ　顔認証活用の新たなソリューションをめざす3社の取り組み
+製造・プロセス
+その他の詳細情報を取得中: https://wisdom.nec.com/ja/feature/biometrics/2025032701/index.html?
+2025-04-18 00:12:36,416 - INFO - 2.957480733462447秒待機中...
+2025-04-18 00:12:39,441 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:12:40,244 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:12:44,412 - INFO - 要約を生成しました: 戸田建設株式会社、YKK-AP株式会社、大和ハウス工業株式会社の3社は、顔認証技術を活用した新たな入...
+2025-04-18 00:12:45,308 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-18 00:12:46,223 - INFO - 生成されたタイトル: 戸田建設・YKK-AP・大和ハウス、顔認証で業務効率化3000人利用
+2025-04-18 00:12:46,223 - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:12:46,223 - INFO - 事例 5: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:12:46,223 - INFO - 事例: 動画
+BluStellar データを使える資産に、戦略コンサルティング [00:49]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/blustellar_datautilization.html
+2025-04-18 00:12:47,136 - INFO - 3.604561541449705秒待機中...
+2025-04-18 00:12:50,786 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:12:51,308 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:12:54,446 - INFO - 要約を生成しました: NECは、分散したデータを活用し、経営資産としての価値を引き出すための戦略コンサルティングを提供して...
+2025-04-18 00:12:55,186 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:12:56,307 - INFO - 生成されたタイトル: NECのBluStellar活用でデータ価値を最大化し、DX推進
+2025-04-18 00:12:56,307 - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:12:56,307 - INFO - 事例 6: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:12:56,307 - INFO - 事例: 動画
+BluStellar 戦略コンサルティングで導くデジタル人材育成 [00:41]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/blustellar_digitaltalent.html
+2025-04-18 00:12:57,992 - INFO - 3.8293889864952817秒待機中...
+2025-04-18 00:13:01,865 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:02,661 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:05,628 - INFO - 要約を生成しました: NECは、非効率な業務やデジタル人材の不足といった社会的課題に対し、テクノロジーと豊富な知見を活用し...
+2025-04-18 00:13:06,547 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:13:07,470 - INFO - 生成されたタイトル: NEC、DX支援で業務効率化と人材育成を加速
+2025-04-18 00:13:07,470 - INFO - 除外パターンに一致するため、企業名をスキップ: NEC
+2025-04-18 00:13:07,470 - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:13:07,471 - INFO - 事例 7: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業の詳細情報を取得中...
+2025-04-18 00:13:07,471 - INFO - 事例: 首都高速道路株式会社 様
+
+クラウド型デジタルサイネージを導入で解決！リモートによるリアルタイム情報発信で、ますます安全で快適な大黒パーキングエリアをめざす！
+デジタルサイネージ
+設備保全
+サービス業の詳細情報を取得中: https://jpn.nec.com/d_signage/cases/shutoko.html
+2025-04-18 00:13:08,540 - INFO - 2.191567089097617秒待機中...
+2025-04-18 00:13:10,775 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:11,463 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:15,047 - INFO - 要約を生成しました: 首都高速道路株式会社は、デジタルサイネージの運用効率化と情報提供の迅速化を目的に、NECのクラウド型...
+2025-04-18 00:13:15,764 - INFO - ソリューションカテゴリを判定しました: クラウドソリューション
+2025-04-18 00:13:16,451 - INFO - 生成されたタイトル: 首都高速道路、NECの「PanelDirector」で情報提供を迅速化
+2025-04-18 00:13:16,451 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '首都高速道路'
+2025-04-18 00:13:16,451 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '首都高速道路'
+2025-04-18 00:13:16,451 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:13:16,451 - INFO - Google APIで検索中: 首都高速道路 業種 業界 セクター 事業内容
+2025-04-18 00:13:16,599 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:16,600 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'service': 'customsearch.googleapis.com', 'quota_limit_value': '100', 'consumer': 'projects/846568400315', 'quota_limit': 'DefaultPerDayPerProject', 'quota_metric': 'customsearch.googleapis.com/requests'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:13:16,600 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:16,600 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:16,602 - INFO - 事例 8: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセスの詳細情報を取得中...
+2025-04-18 00:13:16,602 - INFO - 事例: 豊田自動織機様
+
+NECの量子コンピューティング技術でDXを加速
+複雑で難解な出荷計画業務を飛躍的に効率化
+製造・プロセスの詳細情報を取得中: https://jpn.nec.com/quantum_annealing/case/toyota-shokki/index.html
+2025-04-18 00:13:18,141 - INFO - 3.745397429222301秒待機中...
+2025-04-18 00:13:21,944 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:22,901 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:27,643 - INFO - 要約を生成しました: 豊田自動織機は、複雑な出荷計画業務の効率化を目指し、NECの量子コンピューティング技術「NEC Ve...
+2025-04-18 00:13:28,495 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-18 00:13:29,432 - INFO - 生成されたタイトル: 豊田自動織機、NECの量子技術で出荷計画を2時間に短縮！
+2025-04-18 00:13:29,432 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '豊田自動織機'
+2025-04-18 00:13:29,432 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '豊田自動織機'
+2025-04-18 00:13:29,432 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:13:29,433 - INFO - Google APIで検索中: 豊田自動織機 業種 業界 セクター 事業内容
+2025-04-18 00:13:29,581 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:29,582 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'consumer': 'projects/846568400315', 'service': 'customsearch.googleapis.com', 'quota_limit_value': '100', 'quota_limit': 'DefaultPerDayPerProject', 'quota_metric': 'customsearch.googleapis.com/requests'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:13:29,582 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:29,582 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:29,584 - INFO - 事例 9: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:13:29,584 - INFO - 事例: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング　ショート版 [00:30]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_jp_short.html
+2025-04-18 00:13:30,549 - INFO - 3.5429241861787784秒待機中...
+2025-04-18 00:13:34,127 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:34,614 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:37,531 - INFO - 要約を生成しました: 東京電力パワーグリッド株式会社は、業務の属人化や担い手不足という課題を抱えていました。NECと提携し...
+2025-04-18 00:13:38,378 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:13:39,316 - INFO - 生成されたタイトル: 東京電力、NEC提携で業務効率化と信頼性向上へ
+2025-04-18 00:13:39,316 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '東京電力'
+2025-04-18 00:13:39,316 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '東京電力'
+2025-04-18 00:13:39,316 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:13:39,317 - INFO - Google APIで検索中: 東京電力 業種 業界 セクター 事業内容
+2025-04-18 00:13:39,488 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:39,489 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_limit_value': '100', 'quota_metric': 'customsearch.googleapis.com/requests', 'consumer': 'projects/846568400315', 'service': 'customsearch.googleapis.com', 'quota_limit': 'DefaultPerDayPerProject'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:13:39,489 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:39,489 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:13:39,490 - INFO - 事例 10: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:13:39,490 - INFO - 事例: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [00:30]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/omron.short.html
+2025-04-18 00:13:41,275 - INFO - 3.7383096059801657秒待機中...
+2025-04-18 00:13:45,053 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:45,913 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:48,739 - INFO - 要約を生成しました: オムロン株式会社は、生成AIの導入において課題を抱えていましたが、NECの戦略コンサルティングを通じ...
+2025-04-18 00:13:49,645 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:13:50,682 - INFO - 生成されたタイトル: オムロン、NECと生成AI導入で業務効率化を推進
+2025-04-18 00:13:50,682 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: 'オムロン'
+2025-04-18 00:13:50,682 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> 'オムロン'
+2025-04-18 00:13:50,682 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:13:50,684 - INFO - Google APIで検索中: オムロン 業種 業界 セクター 事業内容
+2025-04-18 00:13:51,068 - INFO - Google検索結果を取得しました: 社会の安心・安全・快適ソリューション | オムロン ソーシアル ... 課題から探す · 業界・事業から探す · 製品・サービスから探す. 事業別業績 | オムロン DSB（データソリューション事業）...
+2025-04-18 00:13:51,069 - INFO - インダストリーを判定しました: ヘルスケア・医薬ライフサイエンス (スコア: 2.6)
+2025-04-18 00:13:51,069 - INFO - 【分類結果】企業: オムロン, インダストリー: ヘルスケア・医薬ライフサイエンス (Google API使用)
+2025-04-18 00:13:51,069 - INFO - 【インダストリー更新】インダストリーを更新します: 'テクノロジー' -> 'ヘルスケア・医薬ライフサイエンス'
+2025-04-18 00:13:51,069 - INFO - 事例 11: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革の詳細情報を取得中...
+2025-04-18 00:13:51,069 - INFO - 事例: TOPPAN株式会社様
+
+「NEC 働き方見える化サービス Plus」の導入により、
+多様な働き方の実現と生産性向上を促す仕組みの構築に貢献
+製造・プロセス
+働き方改革の詳細情報を取得中: https://jpn.nec.com/products/bizpc/promotion/hatarakikata/case/toppan/index.html
+2025-04-18 00:13:52,817 - INFO - 2.600863397857756秒待機中...
+2025-04-18 00:13:55,450 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:13:55,975 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:13:59,838 - INFO - 要約を生成しました: TOPPAN株式会社は、「NEC 働き方見える化サービス Plus」を導入し、リモートワーク中の勤務...
+2025-04-18 00:14:00,779 - INFO - ソリューションカテゴリを判定しました: デジタルワークプレイス
+2025-04-18 00:14:01,884 - INFO - 生成されたタイトル: TOPPAN、NEC働き方見える化サービス導入で勤務状況を可視化
+2025-04-18 00:14:01,884 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: 'TOPPAN'
+2025-04-18 00:14:01,884 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> 'TOPPAN'
+2025-04-18 00:14:01,885 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:14:01,888 - INFO - Google APIで検索中: TOPPAN 業種 業界 セクター 事業内容
+2025-04-18 00:14:02,058 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:02,058 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'service': 'customsearch.googleapis.com', 'quota_metric': 'customsearch.googleapis.com/requests', 'quota_limit': 'DefaultPerDayPerProject', 'quota_location': 'global', 'quota_limit_value': '100', 'consumer': 'projects/846568400315'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:14:02,059 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:02,059 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:02,062 - INFO - 事例 12: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:14:02,062 - INFO - 事例: 動画
+【オムロン株式会社】 NECとともに進める生成AI活用　#戦略コンサルティング [01:00]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/omron.html
+2025-04-18 00:14:02,942 - INFO - 3.9219610137163534秒待機中...
+2025-04-18 00:14:06,911 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:14:07,654 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:14:10,965 - INFO - 要約を生成しました: オムロン株式会社は、生成AIの導入に際し、NECの戦略コンサルティングを活用して業務課題の解決を進め...
+2025-04-18 00:14:11,821 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:14:12,700 - INFO - 生成されたタイトル: オムロン、NECの「cotomi」で業務最適化を実現
+2025-04-18 00:14:12,700 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: 'オムロン'
+2025-04-18 00:14:12,700 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> 'オムロン'
+2025-04-18 00:14:12,700 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:14:12,704 - INFO - Google APIで検索中: オムロン 業種 業界 セクター 事業内容
+2025-04-18 00:14:12,893 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:12,894 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'consumer': 'projects/846568400315', 'quota_limit': 'DefaultPerDayPerProject', 'service': 'customsearch.googleapis.com', 'quota_location': 'global', 'quota_limit_value': '100', 'quota_metric': 'customsearch.googleapis.com/requests'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:14:12,895 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:12,895 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:12,898 - INFO - 事例 13: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例の詳細情報を取得中...
+2025-04-18 00:14:12,898 - INFO - 事例: 動画
+【東京電力パワーグリッド株式会社】NECとともに進める業務変革　#戦略コンサルティング [02:55]
+
+導入事例の詳細情報を取得中: https://jpn.nec.com/ad/onlinetv/consulting_tepcopg_jp.html
+2025-04-18 00:14:14,399 - INFO - 3.8812087948686087秒待機中...
+2025-04-18 00:14:18,330 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:14:18,945 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:14:23,809 - INFO - 要約を生成しました: 東京電力パワーグリッド株式会社は、老朽化した配電設備のメンテナンスや更新の必要性、労働人口の減少、業...
+2025-04-18 00:14:25,225 - INFO - ソリューションカテゴリを判定しました: 戦略・コンサルティング
+2025-04-18 00:14:26,096 - INFO - 生成されたタイトル: 東京電力、画像認識技術導入で業務効率2倍向上へ
+2025-04-18 00:14:26,096 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '東京電力'
+2025-04-18 00:14:26,097 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '東京電力'
+2025-04-18 00:14:26,097 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:14:26,100 - INFO - Google APIで検索中: 東京電力 業種 業界 セクター 事業内容
+2025-04-18 00:14:26,260 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:26,260 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_location': 'global', 'quota_metric': 'customsearch.googleapis.com/requests', 'service': 'customsearch.googleapis.com', 'quota_limit_value': '100', 'quota_limit': 'DefaultPerDayPerProject', 'consumer': 'projects/846568400315'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:14:26,260 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:26,260 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:26,261 - INFO - 事例 14: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他の詳細情報を取得中...
+2025-04-18 00:14:26,261 - INFO - 事例: 株式会社セブン銀行様
+
+NECとセブン銀行様は、「誰一人取り残さない」デジタル社会の実現に向けて機能の拡充のみならず安全性や操作性に配慮するとともに、ユニバーサルデザインを追求した新しい時代の新型（第４世代）ATMを共同開発しました。
+その他業務
+金融機関
+その他の詳細情報を取得中: https://jpn.nec.com/fintech/case/sevenbank.html
+2025-04-18 00:14:29,463 - INFO - 2.1844151718891993秒待機中...
+2025-04-18 00:14:31,689 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:14:31,690 - INFO - URLに基づいて判断されたインダストリー: 銀行・証券
+2025-04-18 00:14:35,957 - INFO - 要約を生成しました: 株式会社セブン銀行とNECは、デジタル社会の実現に向けた新型（第4世代）ATMを共同開発しました。こ...
+2025-04-18 00:14:36,869 - INFO - ソリューションカテゴリを判定しました: 業務アプリケーション
+2025-04-18 00:14:37,680 - INFO - 生成されたタイトル: セブン銀行とNEC、4世代ATMで利便性向上と安心感確保
+2025-04-18 00:14:37,681 - INFO - 除外パターンに一致するため、企業名をスキップ: セブン銀行とNEC
+2025-04-18 00:14:37,681 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: 'セブン銀行'
+2025-04-18 00:14:37,682 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> 'セブン銀行'
+2025-04-18 00:14:37,682 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:14:37,685 - INFO - Google APIで検索中: セブン銀行 業種 業界 セクター 事業内容
+2025-04-18 00:14:37,843 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:37,843 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'consumer': 'projects/846568400315', 'quota_location': 'global', 'quota_limit': 'DefaultPerDayPerProject', 'quota_limit_value': '100', 'service': 'customsearch.googleapis.com', 'quota_metric': 'customsearch.googleapis.com/requests'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:14:37,843 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:37,843 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:14:37,844 - INFO - 事例 15: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証の詳細情報を取得中...
+2025-04-18 00:14:37,844 - INFO - 事例: 積水ハウス株式会社様
+
+顔認証技術を活用し、多様なサービスを実現
+マンションの暮らしに新たな価値を創出
+顔認証の詳細情報を取得中: https://jpn.nec.com/residence/work/sekisuihouse/index.html
+2025-04-18 00:14:39,439 - INFO - 2.53391091945522秒待機中...
+2025-04-18 00:14:42,058 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:14:43,010 - INFO - GPT-4o-miniによって判断されたインダストリー: テクノロジー
+2025-04-18 00:14:48,771 - INFO - 要約を生成しました: 積水ハウス株式会社は、顔認証技術を活用した新しいマンション「グランドメゾン溝の口の杜」を開発し、安全...
+2025-04-18 00:14:49,667 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-18 00:14:50,690 - INFO - 生成されたタイトル: 積水ハウス「グランドメゾン溝の口の杜」で99%好評の顔認証安全住宅
+2025-04-18 00:14:50,691 - INFO - 【企業名抽出】生成タイトルから企業名を抽出できませんでした
+2025-04-18 00:14:50,691 - INFO - 事例 16: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流の詳細情報を取得中...
+2025-04-18 00:14:50,691 - INFO - 事例: 日本瓦斯運輸整備株式会社様
+
+安全運転指導を「事後」から「事前」へシフト
+約400台の社用車のヒヤリハットを40％低減
+物流の詳細情報を取得中: https://jpn.nec.com/kurumie/nicigas-unyu.html
+2025-04-18 00:14:52,478 - INFO - 2.8927919428283575秒待機中...
+2025-04-18 00:14:55,423 - INFO - 初期インダストリーを設定しました: テクノロジー
+2025-04-18 00:14:55,424 - INFO - URLに基づいて判断されたインダストリー: 運輸・物流
+2025-04-18 00:14:58,671 - INFO - 要約を生成しました: 日本瓦斯運輸整備株式会社は、安全運転指導を「事後」から「事前」にシフトするため、約400台の社用車に...
+2025-04-18 00:14:59,455 - INFO - ソリューションカテゴリを判定しました: AI・先端技術
+2025-04-18 00:15:00,828 - INFO - 生成されたタイトル: 日本瓦斯運輸整備、NEC「くるみえ」でヒヤリハット40%減少
+2025-04-18 00:15:00,828 - INFO - 【企業名抽出】生成タイトルから企業名を抽出しました: '日本瓦斯運輸整備'
+2025-04-18 00:15:00,829 - INFO - 【企業名更新】企業名を更新します: 'NEC' -> '日本瓦斯運輸整備'
+2025-04-18 00:15:00,829 - INFO - Google検索を使用したインダストリー分類を開始...
+2025-04-18 00:15:00,831 - INFO - Google APIで検索中: 日本瓦斯運輸整備 業種 業界 セクター 事業内容
+2025-04-18 00:15:00,985 - ERROR - Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:15:00,985 - ERROR - エラー詳細: {'error': {'code': 429, 'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'errors': [{'message': "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'customsearch.googleapis.com' for consumer 'project_number:846568400315'.", 'domain': 'global', 'reason': 'rateLimitExceeded'}], 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'RATE_LIMIT_EXCEEDED', 'domain': 'googleapis.com', 'metadata': {'quota_metric': 'customsearch.googleapis.com/requests', 'consumer': 'projects/846568400315', 'quota_location': 'global', 'service': 'customsearch.googleapis.com', 'quota_limit': 'DefaultPerDayPerProject', 'quota_limit_value': '100'}}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Request a higher quota limit.', 'url': 'https://cloud.google.com/docs/quotas/help/request_increase'}]}]}}
+2025-04-18 00:15:00,985 - ERROR - Google API呼び出し中に例外が発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:15:00,985 - ERROR - Google API検索中にエラー発生: Google API呼び出し中にエラー発生: ステータスコード 429
+2025-04-18 00:15:00,989 - INFO - CSVデータを保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nec/output/20250418_001139/nec_cases.csv (16件)
+2025-04-18 00:15:00,989 - INFO - JSONデータを保存しました: /Users/kitamotoshintarou/Desktop/WebScrapingTool/competitors_scraper/nec/output/20250418_001139/nec_cases.json (16件)
+2025-04-18 00:15:01,172 - INFO - スクレイピングが完了しました
