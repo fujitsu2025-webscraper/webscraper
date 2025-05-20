@@ -1,5 +1,5 @@
 """
-HITACHIスクレイパーの設定ファイル
+日立製作所スクレイパーの設定ファイル
 """
 import os
 from pathlib import Path
@@ -52,7 +52,7 @@ INDUSTRY_LIST = [
     "ヘルスケア・医薬ライフサイエンス"
 ]
 
-# HITACHIの業種分類マッピング(未修正)
+# 日立製作所の業種分類マッピング
 HITACHI_INDUSTRY_MAPPING = {
     "自動車": "自動車",
     "重工業・エンジニアリング": "重工業・エンジニアリング",

@@ -1,10 +1,10 @@
-# NEC事例スクレイパー
+# 日立製作所事例スクレイパー
 
-NECの事例ページから情報を収集し、AI要約機能を活用して効率的にデータを整理するスクレイピングツールです。
+日立製作所の事例ページから情報を収集し、AI要約機能を活用して効率的にデータを整理するスクレイピングツールです。
 
 ## 機能概要
 
-- NECの事例ページ（<https://jpn.nec.com/case/index.html）から事例情報を自動収集>
+- 日立製作所の事例ページ（<https://www.hitachi.co.jp/New/cnews/index.html）から事例情報を自動収集>
 - 「もっと見る」ボタンを自動クリックして全ての事例を表示
 - 各事例の詳細ページにアクセスして追加情報を取得
 - OpenAI GPT-4o-miniを使用した事例の要約生成
@@ -37,7 +37,7 @@ OPENAI_API_KEY="your_api_key_here"
 ### 基本的な実行方法
 
 ```bash
-python run_nec_scraper.py
+python run_hitachi_scraper.py
 ```
 
 ### オプション
@@ -50,38 +50,38 @@ python run_nec_scraper.py
 
 ```bash
 # 基本実行
-python run_nec_scraper.py
+python run_hitachi_scraper.py
 
 # クリック回数を10回に制限
-python run_nec_scraper.py --max-clicks 10
+python run_hitachi_scraper.py --max-clicks 10
 
 # ヘッドレスモードで実行
-python run_nec_scraper.py --headless
+python run_hitachi_scraper.py --headless
 
 # 要約機能を無効化
-python run_nec_scraper.py --no-summarize
+python run_hitachi_scraper.py --no-summarize
 ```
 
 ## 出力ファイル
 
 スクレイピング結果は `output/<日時>` ディレクトリに保存されます：
 
-- `nec_cases.csv`: CSV形式のデータ
-- `nec_cases.json`: JSON形式のデータ
-- `nec_scraper_log.txt`: 実行ログ
+- `hitachi_cases.csv`: CSV形式のデータ
+- `hitachi_cases.json`: JSON形式のデータ
+- `hitachi_scraper_log.txt`: 実行ログ
 - エラー発生時は `error_page_source.html` も保存
 
 ## プロジェクト構造
 
 """
-nec/
+hitachi/
 ├── .env                    # 環境変数設定ファイル（APIキーなど）
-├── run_nec_scraper.py      # メイン実行スクリプト
-├── nec_scraper/            # スクレイパーのコアモジュール
+├── run_hitachi_scraper.py      # メイン実行スクリプト
+├── hitachi_scraper/            # スクレイパーのコアモジュール
 │   ├── config/             # 設定ファイル
 │   │   ├── settings.py     # URL、WebDriver設定、業種マッピングなど
 │   ├── models/             # データモデル
-│   │   ├── scraper.py      # NECScraperクラス
+│   │   ├── scraper.py      # Hitachi_Scraperクラス
 │   ├── utils/              # ユーティリティ関数
 │   │   ├── data_processor.py  # データ処理機能
 │   │   ├── industry_classifier.py  # 業種分類機能

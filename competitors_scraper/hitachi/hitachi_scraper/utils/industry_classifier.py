@@ -3,7 +3,7 @@
 """
 import re
 import logging
-from ..config.settings import INDUSTRY_LIST, NEC_INDUSTRY_MAPPING, EXPLICIT_COMPANY_MAPPING, INDUSTRY_SYSTEM_MESSAGE
+from ..config.settings import INDUSTRY_LIST, HITACHI_INDUSTRY_MAPPING, EXPLICIT_COMPANY_MAPPING, INDUSTRY_SYSTEM_MESSAGE
 from .openai_client import generate_with_gpt4o_mini
 
 logger = logging.getLogger("hitachi_scraper")
@@ -118,12 +118,12 @@ def determine_industry(url=None, company_name=None, business_type=None, business
         industry = "官公庁・地方自治体・公的機関"
         logger.info(f"業種情報「地方公共団体・官庁」に基づいて判断されたインダストリー: {industry}")
     
-    # NECの業種分類からの判断
+    # 日立製作所の業種分類からの判断
     if industry == "その他" and business_type:
-        for nec_industry, mapped_industry in NEC_INDUSTRY_MAPPING.items():
-            if nec_industry in business_type:
+        for hitachi_industry, mapped_industry in HITACHI_INDUSTRY_MAPPING.items():
+            if hitachi_industry in business_type:
                 industry = mapped_industry
-                logger.info(f"NECの業種分類に基づいて判断されたインダストリー: {industry}")
+                logger.info(f"日立製作所の業種分類に基づいて判断されたインダストリー: {industry}")
                 break
     
     # 業務情報からの判断

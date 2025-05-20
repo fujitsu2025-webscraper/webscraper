@@ -129,15 +129,12 @@ def extract_company_from_text(content: str) -> str:
     """
     logger.info("テキストから企業名を抽出中...")
     
-    # 日立を除外するパターン
+    # 日立製作所を除外するパターン
     exclude_patterns = [
-            r"日立",
-            r"Hitachi",
-            r"ハイタッチ",
-            r"日立ソリューション",
-            r"日立製作所",
-            r"日立システムズ"
-        ]
+        r"Hitachi",
+        r"日立製作所"
+        r"ヒタチセイサクショ"
+    ]
     
     # 企業名抽出パターン
     patterns = [
@@ -201,8 +198,8 @@ def classify_industry_from_web_data(company: str, web_data: str) -> str:
         "三菱ロジスネクスト": "運輸・物流",
         "JAバンク": "銀行・証券",
         "農林中央金庫": "銀行・証券",
-        "NEC": "テクノロジー",
-        "日本電気": "テクノロジー"
+        "Hitachi": "テクノロジー",
+        "日立製作所": "テクノロジー"
     }
     
     # 企業名が直接マッピングにある場合はそれを返す

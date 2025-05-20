@@ -1,14 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 """
-Hitachiの事例ページをスクレイピングするためのクラス
+日立製作所の事例ページをスクレイピングするためのクラス
 """
-import os
 import time
 import random
 import logging
-import requests
+import re
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -28,315 +24,442 @@ from ..utils.company_extractor import extract_company_from_title
 
 logger = logging.getLogger("hitachi_scraper")
 
-class HitachiScraper:
-    """Hitachiの事例ページをスクレイピングするクラス"""
+class Hitachi_Scraper:
+    """日立製作所の事例ページをスクレイピングするクラス"""
     
-    def __init__(self, driver, max_pages=10, download_pdfs=True, summarize=True):
+    def __init__(self, driver, max_clicks=30, summarize=True):
         """
         初期化
         
         Args:
             driver: WebDriverオブジェクト
-            max_pages (int): スクレイピングする最大ページ数
-            download_pdfs (bool): PDFをダウンロードするかどうか
+            max_clicks (int): 「もっと見る」ボタンの最大クリック回数
             summarize (bool): 要約機能を使用するかどうか
         """
         self.driver = driver
-        self.max_pages = max_pages
-        self.download_pdfs = download_pdfs
+        self.max_clicks = max_clicks
         self.summarize = summarize
         self.url = TARGET_URL
-        self.downloaded_pdfs = []
     
     def scrape(self):
         """
         スクレイピングを実行する
         
         Returns:
-            tuple: (事例データのリスト, ダウンロードしたPDFファイルのリスト)
+            tuple: (事例データのリスト, ページソース)
         """
         try:
             # ページにアクセス
-            logger.info(f"Hitachi事例ページにアクセス中: {self.url}")
+            logger.info(f"ページにアクセス中: {self.url}")
             self.driver.get(self.url)
             
-            # ランダムな待機時間
+            # ランダムな待機時間（ボットと認識されにくくするため）
             wait_time = random.uniform(3, 5)
             logger.info(f"{wait_time}秒待機中...")
             time.sleep(wait_time)
             
-            # Cookie同意ボタンをクリック（存在する場合）
-            self._accept_cookies()
+            # ページのソースを取得して確認
+            page_source = self.driver.page_source
+            logger.info(f"ページソースの長さ: {len(page_source)}文字")
             
-            # 事例リストを取得
-            case_data = []
-            current_page = 1
+            # ページのタイトルを取得して確認
+            page_title = self.driver.title
+            logger.info(f"ページタイトル: {page_title}")
             
-            while current_page <= self.max_pages:
-                logger.info(f"ページ {current_page}/{self.max_pages} を処理中...")
-                
-                # ページの完全読み込みを待機
-                WebDriverWait(self.driver, 20).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
-                )
-                
-                # 事例リストを取得
-                page_cases = self._extract_case_list()
-                case_data.extend(page_cases)
-                
-                # PDFダウンロード
-                if self.download_pdfs:
-                    self._download_case_pdfs(page_cases)
-                
-                # 次のページへ遷移
-                if not self._go_to_next_page():
-                    break
-                
-                current_page += 1
-                time.sleep(random.uniform(2, 4))  # ページ間の待機
+            # ページが完全に読み込まれるまで待機
+            logger.info("ページの読み込みを待機中...")
+            WebDriverWait(self.driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
+            )
             
+            # 事例リストと「もっと見る」ボタンを探す
+            result_list, more_button = self._find_elements()
+            
+            # 「もっと見る」ボタンをクリックして全ての事例を表示
+            if more_button:
+                self._load_more_cases(result_list, more_button)
+            
+            # 事例リストから情報を抽出
+            case_data = self._extract_case_list()
+
             # 詳細情報を取得
             detailed_data = self._process_cases(case_data)
             
-            return detailed_data, self.downloaded_pdfs
+            return detailed_data, page_source
             
         except Exception as e:
-            logger.error(f"スクレイピング中にエラーが発生しました: {str(e)}", exc_info=True)
-            return [], []
+            logger.error(f"スクレイピング中にエラーが発生しました: {str(e)}")
+            return [], self.driver.page_source
     
-    def _accept_cookies(self):
-        """Cookie同意ボタンをクリック"""
-        try:
-            cookie_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "button.cookie-consent__agree"))
-            cookie_button.click()
-            logger.info("Cookie同意ボタンをクリックしました")
-            time.sleep(1)
-        except Exception as e:
-            logger.info(f"Cookie同意ボタンが見つかりませんでした: {str(e)}")
-    
-    def _extract_case_list(self):
+    def _find_elements(self):
         """
-        現在のページから事例リストを抽出
+        事例リストと「もっと見る」ボタンを探す（再取得付き）
+
+        Returns:
+            tuple: (事例リストsection要素, 事例リスト内のli要素リスト, 「もっと見る」ボタン要素)
+        """
+        logger.info("事例リストと「もっと見る」ボタンを探しています...")
+
+        result_list = None
+        more_button = None
+
+        try:
+            result_list = WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "section.newsrelease_top-post-list-section"))
+            )
+            logger.info("事例リストを発見しました")
+        except Exception as e:
+            logger.error(f"事例リストの検出に失敗: {str(e)}")
+
+        try:
+            more_button = WebDriverWait(self.driver, 10).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "button.js-newsrelease_list-more"))
+            )
+            logger.info(f"「もっと見る」ボタンを発見しました: {more_button.text}")
+        except Exception as e:
+            logger.warning(f"「もっと見る」ボタンの検出に失敗: {str(e)}")
+
+        return result_list, more_button
+
+
+    
+    def _get_case_count(self, result_list):
+        """
+        事例数を取得する
+        
+        Args:
+            result_list: 事例リスト要素
         
         Returns:
-            list: 事例データのリスト
+            int: 事例数
         """
-        logger.info("事例リストを抽出中...")
+        try:
+            if result_list:
+                # 結果リスト内のリンク数をカウント
+                return len(result_list.find_elements(By.TAG_NAME, "a"))
+            else:
+                # 全体のリンク数をカウント
+                return len(self.driver.find_elements(By.TAG_NAME, "a"))
+        except StaleElementReferenceException:
+            # 要素が古くなった場合は再取得
+            try:
+                result_list_updated = self.driver.find_element(By.ID, "NFC-SrchResultList")
+                return len(result_list_updated.find_elements(By.TAG_NAME, "a"))
+            except:
+                return len(self.driver.find_elements(By.TAG_NAME, "a"))
+    
+    def _load_more_cases(self, result_list, more_button):
+        logger.info(f"「もっと見る」ボタンを使用して事例を読み込みます（最大クリック回数: {self.max_clicks}回）...")
+
+        previous_count = self._get_case_count(result_list)
+        logger.info(f"初期の事例リンク数: {previous_count}")
+
+        clicks = 0
+        consecutive_no_change = 0
+
+        while clicks < self.max_clicks and consecutive_no_change < 5:
+            try:
+                self.driver.execute_script("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", more_button)
+                time.sleep(1)
+
+                logger.info(f"{clicks + 1}回目の「もっと見る」ボタンをクリック...（残り{self.max_clicks - clicks - 1}回）")
+                more_button.click()
+
+                wait_time = random.uniform(2, 4)
+                logger.info(f"{wait_time:.2f}秒待機中...")
+                time.sleep(wait_time)
+
+                current_count = self._get_case_count(result_list)
+                logger.info(f"現在の事例リンク数: {current_count}")
+
+                if current_count > previous_count:
+                    logger.info(f"新しい事例が {current_count - previous_count} 件読み込まれました")
+                    previous_count = current_count
+                    consecutive_no_change = 0
+                else:
+                    consecutive_no_change += 1
+                    logger.info(f"新しい事例は読み込まれませんでした（連続 {consecutive_no_change} 回）")
+
+                clicks += 1
+
+                # ボタンを再取得
+                try:
+                    more_button = WebDriverWait(self.driver, 5).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, "button.js-newsrelease_list-more"))
+                    )
+                    if not more_button.is_displayed() or not more_button.is_enabled():
+                        logger.info("「もっと見る」ボタンが非表示または無効になりました。終了します。")
+                        break
+                except Exception:
+                    logger.info("「もっと見る」ボタンが見つからなくなりました。終了します。")
+                    break
+
+            except (ElementClickInterceptedException, TimeoutException) as e:
+                logger.error(f"ボタンクリック中にエラー: {str(e)}")
+                try:
+                    self.driver.execute_script("arguments[0].click();", more_button)
+                    time.sleep(wait_time)
+                except Exception as e2:
+                    logger.error(f"JavaScriptクリックでもエラー: {str(e2)}")
+                    consecutive_no_change += 1
+            except StaleElementReferenceException:
+                logger.warning("ボタンの参照が古くなりました。再取得します")
+                try:
+                    more_button = WebDriverWait(self.driver, 5).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, "button.js-newsrelease_list-more"))
+                    )
+                    consecutive_no_change += 1
+                except Exception:
+                    logger.error("ボタンの再取得に失敗しました")
+                    break
+            except Exception as e:
+                logger.error(f"予期せぬエラー: {str(e)}")
+                consecutive_no_change += 1
+
+        logger.info(f"「もっと見る」ボタンを合計 {clicks} 回クリックしました")
+
+    def _extract_case_list(self):
         case_data = []
-        
+
         try:
-            # 事例コンテナを取得
-            case_container = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.case-list"))
-            )
-            
-            # 各事例カードを取得
-            case_cards = case_container.find_elements(By.CSS_SELECTOR, "div.case-card")
-            logger.info(f"見つかった事例カード数: {len(case_cards)}")
-            
-            for card in case_cards:
-                try:
-                    # タイトルとURLを取得
-                    title_element = card.find_element(By.CSS_SELECTOR, "h3.case-title a")
-                    title = title_element.text.strip()
-                    url = title_element.get_attribute("href")
-                    
-                    # 業種とソリューションを取得
-                    industry = ""
-                    solution = ""
-                    try:
-                        meta_elements = card.find_elements(By.CSS_SELECTOR, "div.case-meta span")
-                        if len(meta_elements) >= 2:
-                            industry = meta_elements[0].text.strip()
-                            solution = meta_elements[1].text.strip()
-                    except:
-                        pass
-                    
-                    # PDFリンクを取得
-                    pdf_url = ""
-                    try:
-                        pdf_link = card.find_element(By.CSS_SELECTOR, "a.case-pdf")
-                        pdf_url = pdf_link.get_attribute("href")
-                    except:
-                        pass
-                    
-                    if url:
-                        case_data.append({
-                            "タイトル": title,
-                            "URL": url,
-                            "業種": industry,
-                            "ソリューション": solution,
-                            "PDF_URL": pdf_url,
-                            "企業": "Hitachi"  # デフォルト値
-                        })
-                        logger.info(f"事例を追加: {title}")
-                        
-                except Exception as e:
-                    logger.error(f"事例カード処理中にエラー: {str(e)}")
-        
+            # aタグの中で対象パターンのURLを持つものをすべて取得
+            wait = WebDriverWait(self.driver, 10)
+            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.newsrelease_top-post-item-anchor")))
+            links = self.driver.find_elements(By.CSS_SELECTOR, "a.newsrelease_top-post-item-anchor")
+
+            logger.info(f"aタグ数: {len(links)}")
+
+            for link in links:
+                title = link.text.strip()
+                url = link.get_attribute("href")
+
+                # "/New/cnews/month/" を含むリンクのみ対象にする
+                if (
+                    url and title and
+                    "/New/cnews/month/" in url and
+                    not any(entry["URL"] == url for entry in case_data)
+                ):
+                    case_data.append({
+                        "タイトル": title,
+                        "URL": url,
+                        "企業": "日立製作所"
+                    })
+                    logger.info(f"記事取得: {title} - {url}")
+
         except Exception as e:
-            logger.error(f"事例リスト抽出中にエラー: {str(e)}")
-            # 代替方法で取得を試みる
-            return self._fallback_extract_case_list()
-        
+            logger.warning(f"抽出に失敗: {str(e)}")
+
+        logger.info(f"最終的に取得した事例数: {len(case_data)} 件")
         return case_data
-    
-    def _fallback_extract_case_list(self):
-        """代替方法で事例リストを抽出"""
-        logger.warning("標準的な方法で事例リストを取得できませんでした。代替方法を試します...")
-        case_data = []
-        
-        try:
-            # ページ内のすべてのリンクを取得
-            all_links = self.driver.find_elements(By.CSS_SELECTOR, "a[href*='case']")
-            
-            for link in all_links:
-                try:
-                    url = link.get_attribute("href")
-                    title = link.text.strip()
-                    
-                    if url and title and "/case/" in url:
-                        case_data.append({
-                            "タイトル": title,
-                            "URL": url,
-                            "企業": "Hitachi"
-                        })
-                        logger.info(f"代替方法で事例を追加: {title}")
-                except:
-                    continue
-        
-        except Exception as e:
-            logger.error(f"代替方法でも事例リストを取得できませんでした: {str(e)}")
-        
-        return case_data
-    
-    def _download_case_pdfs(self, case_data):
-        """事例に関連するPDFをダウンロード"""
-        if not self.download_pdfs:
-            return
-            
-        logger.info("PDFダウンロードを開始します...")
-        
-        for case in case_data:
-            pdf_url = case.get("PDF_URL", "")
-            if pdf_url:
-                try:
-                    # PDFファイル名を生成
-                    pdf_name = f"{case['タイトル'][:50]}.pdf".replace("/", "_")
-                    pdf_path = os.path.join(self.download_dir, pdf_name)
-                    
-                    # PDFをダウンロード
-                    response = requests.get(pdf_url, stream=True)
-                    with open(pdf_path, 'wb') as f:
-                        for chunk in response.iter_content(1024):
-                            f.write(chunk)
-                    
-                    self.downloaded_pdfs.append(pdf_path)
-                    logger.info(f"PDFをダウンロードしました: {pdf_name}")
-                    
-                except Exception as e:
-                    logger.error(f"PDFダウンロード中にエラー: {str(e)}")
-    
-    def _go_to_next_page(self):
-        """次のページに遷移"""
-        try:
-            next_button = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "a.pagination-next"))
-            )
-            
-            # ボタンが無効になっていないか確認
-            if "disabled" in next_button.get_attribute("class"):
-                logger.info("最終ページに到達しました")
-                return False
-            
-            # 次のページへ移動
-            next_button.click()
-            logger.info("次のページへ移動しました")
-            
-            # ページ読み込みを待機
-            WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div.case-list"))
-            )
-            
-            return True
-            
-        except Exception as e:
-            logger.info(f"次のページへ移動できませんでした: {str(e)}")
-            return False
-    
+
     def _process_cases(self, case_data):
         """
-        各事例の詳細情報を処理
+        各事例の詳細情報を取得する
         
         Args:
             case_data (list): 事例データのリスト
         
         Returns:
-            list: 処理済みの詳細データ
+            list: 詳細情報を含む事例データのリスト
         """
         detailed_data = []
-        
         for idx, case in enumerate(case_data):
-            try:
-                logger.info(f"事例 {idx+1}/{len(case_data)} 処理中: {case['タイトル']}")
-                
-                # 詳細ページにアクセス
-                self.driver.get(case["URL"])
-                WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "div.case-detail"))
-                
-                # ページ内容を解析
-                soup = BeautifulSoup(self.driver.page_source, "html.parser")
-                
-                # 基本情報を抽出
-                case_info = {
-                    "タイトル": case["タイトル"],
-                    "URL": case["URL"],
-                    "企業": case["企業"],
-                    "業種": case["業種"],
-                    "ソリューション": case["ソリューション"],
-                    "PDF_URL": case.get("PDF_URL", "")
-                }
-                
-                # 詳細セクションを抽出
-                detail_sections = soup.select("div.case-detail-section")
-                for section in detail_sections:
-                    title = section.find("h3")
-                    if title:
-                        section_title = title.text.strip()
-                        content = "\n".join(p.text.strip() for p in section.find_all("p"))
-                        case_info[section_title] = content
-                
-                # 要約機能が有効な場合
-                if self.summarize:
-                    content = "\n".join(f"{k}: {v}" for k, v in case_info.items() if k not in ["URL", "PDF_URL"])
-                    
-                    # 要約を生成
+            result = self._process_case(idx, case)
+            detailed_data.append(result)
+        
+        return detailed_data
+    
+    def _process_case(self, idx, case):
+        """
+        事例の詳細情報を取得する
+        
+        Args:
+            idx (int): 事例のインデックス
+            case (dict): 事例データ
+        
+        Returns:
+            dict: 詳細情報を含む事例データ
+        """
+        try:
+            logger.info(f"事例 {idx+1}: {case['タイトル']}の詳細情報を取得中...")
+            
+            # 詳細ページにアクセス
+            logger.info(f"事例: {case['タイトル']}の詳細情報を取得中: {case['URL']}")
+            self.driver.get(case["URL"])
+            
+            # ランダムな待機時間
+            wait_time = random.uniform(2, 4)
+            logger.info(f"{wait_time}秒待機中...")
+            time.sleep(wait_time)
+            
+            # 詳細ページが読み込まれるまで待機
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
+            )
+            
+            # 詳細ページのHTMLを解析
+            soup = BeautifulSoup(self.driver.page_source, "html.parser")
+            
+            # 企業名、業種情報、業務情報、顧客プロフィールを抽出
+            company_name = case.get("企業", "")
+            business_type = ""
+            business_field = ""
+            customer_profile = ""
+            
+            # 顧客プロフィールセクションを探す
+            profile_section = soup.find("h2", string=lambda text: text and "お客様プロフィール" in text)
+            if profile_section:
+                profile_div = profile_section.find_next("div", class_="NFC-CaseDetailBlock")
+                if profile_div:
+                    customer_profile = profile_div.get_text(strip=True)
+                    logger.info(f"顧客プロフィール: {customer_profile[:50]}...")
+            
+            # 業種情報を探す
+            business_info_section = soup.find("h2", string=lambda text: text and "業種" in text)
+            if business_info_section:
+                business_info_div = business_info_section.find_next("div", class_="NFC-CaseDetailBlock")
+                if business_info_div:
+                    business_type = business_info_div.get_text(strip=True)
+                    logger.info(f"業種情報: {business_type}")
+            
+            # 業務情報を探す
+            field_info_section = soup.find("h2", string=lambda text: text and "業務" in text)
+            if field_info_section:
+                field_info_div = field_info_section.find_next("div", class_="NFC-CaseDetailBlock")
+                if field_info_div:
+                    business_field = field_info_div.get_text(strip=True)
+                    logger.info(f"業務情報: {business_field}")
+            
+            # 初期インダストリーを設定
+            logger.info("初期インダストリーを設定しました: テクノロジー")
+            industry = "テクノロジー"
+            
+            # 詳細ページの内容全体を取得
+            content = soup.get_text(strip=True)
+            
+            # 既存のインダストリー分類ロジックを使用
+            traditional_industry = determine_industry(
+                url=case["URL"],
+                company_name=company_name,
+                business_type=business_type,
+                business_field=business_field,
+                customer_profile=customer_profile
+            )
+            
+            # 要約機能が有効な場合のみ要約を生成
+            if self.summarize:
+                # 要約を生成
+                try:
                     summary = generate_with_gpt4o_mini(
                         f"タイトル: {case['タイトル']}\n\n{content}",
                         SUMMARY_SYSTEM_MESSAGE
                     )
-                    case_info["要約"] = summary
-                    
-                    # 企業名を抽出して更新
-                    extracted_company = extract_company_from_title(case["タイトル"])
-                    if extracted_company:
-                        case_info["企業"] = extracted_company
-                    
-                    # 業種を再分類
-                    web_industry = determine_industry_with_fallback(
-                        case_info["企業"],
-                        content
-                    )
-                    if web_industry != "その他":
-                        case_info["業種"] = web_industry
+                    logger.info(f"要約を生成しました: {summary[:50]}...")
+                except Exception as e:
+                    logger.error(f"要約生成中にエラー: {str(e)}")
+                    summary = "要約の生成に失敗しました"
                 
-                detailed_data.append(case_info)
-                time.sleep(random.uniform(1, 3))  # リクエスト間隔
-            
-            except Exception as e:
-                logger.error(f"事例詳細処理中にエラー: {str(e)}")
-                detailed_data.append(case)  # 最低限の情報を保持
-        
-        return detailed_data
+                # ソリューションカテゴリを判定
+                try:
+                    solution_prompt = f"タイトル: {case['タイトル']}\n\n要約: {summary}\n\n内容: {content[:2000]}"
+                    solution_result = generate_with_gpt4o_mini(
+                        solution_prompt,
+                        SOLUTION_SYSTEM_MESSAGE,
+                        max_tokens=100,
+                        temperature=0.5
+                    )
+                    
+                    # 結果からソリューションカテゴリを抽出
+                    solution = "その他"
+                    if "ソリューション:" in solution_result:
+                        solution_parts = solution_result.split("ソリューション:")
+                        if len(solution_parts) > 1:
+                            solution = solution_parts[1].strip()
+                    
+                    logger.info(f"ソリューションカテゴリを判定しました: {solution}")
+                except Exception as e:
+                    logger.error(f"ソリューションカテゴリ判定中にエラー: {str(e)}")
+                    solution = "その他"
+                
+                # 具体的なタイトルを生成
+                try:
+                    title_prompt = f"以下の要約に基づいて、非常に具体的で内容を的確に表現するタイトルを生成してください。\n\n要約内容：{summary}\n\n50文字以内で、この事例の主要な価値や成果が明確に伝わるタイトルを1つだけ提案してください。可能であれば、具体的な数値（例：40%削減、2倍向上）や、企業名、製品名、技術名などの固有名詞を含めてください。"
+                    
+                    generated_title = generate_with_gpt4o_mini(title_prompt, TITLE_SYSTEM_MESSAGE, max_tokens=100, temperature=0.8)
+                    logger.info(f"生成されたタイトル: {generated_title}")
+                    
+                    # タイトルから企業名を抽出
+                    extracted_company = extract_company_from_title(generated_title)
+                    
+                    # 企業名が抽出できた場合、その企業名でGoogle検索
+                    if extracted_company:
+                        logger.info(f"【企業名更新】企業名を更新します: '{company_name}' -> '{extracted_company}'")
+                        company_name = extracted_company
+                        
+                        # Google検索によるインダストリー分類
+                        try:
+                            web_industry = determine_industry_with_fallback(company_name, content)
+                            if web_industry != "その他":
+                                logger.info(f"【インダストリー更新】インダストリーを更新します: '{traditional_industry}' -> '{web_industry}'")
+                                industry = web_industry
+                            else:
+                                industry = traditional_industry
+                        except Exception as e:
+                            logger.error(f"Google検索によるインダストリー分類中にエラー: {str(e)}")
+                            industry = traditional_industry
+                    else:
+                        # 企業名が抽出できなかった場合は従来の方法でインダストリーを判定
+                        industry = traditional_industry
+                        
+                except Exception as e:
+                    logger.error(f"タイトル生成中にエラー: {str(e)}")
+                    generated_title = case["タイトル"]
+                    industry = traditional_industry
+                
+                return {
+                    "タイトル": generated_title,
+                    "URL": case["URL"],
+                    "企業": company_name,
+                    "インダストリー": industry,
+                    "ソリューション": solution,
+                    "要約": summary
+                }
+            else:
+                # 要約機能が無効の場合
+                # Google検索によるインダストリー分類
+                try:
+                    web_industry = determine_industry_with_fallback(company_name, content)
+                    if web_industry != "その他":
+                        logger.info(f"【インダストリー更新】インダストリーを更新します: '{traditional_industry}' -> '{web_industry}'")
+                        industry = web_industry
+                    else:
+                        industry = traditional_industry
+                except Exception as e:
+                    logger.error(f"Google検索によるインダストリー分類中にエラー: {str(e)}")
+                    industry = traditional_industry
+                    
+                return {
+                    "タイトル": case["タイトル"],
+                    "URL": case["URL"],
+                    "企業": company_name,
+                    "インダストリー": industry
+                }
+        except Exception as e:
+            logger.error(f"詳細ページの取得中にエラーが発生: {str(e)}")
+            # エラーが発生しても続行
+            if self.summarize:
+                return {
+                    "タイトル": case["タイトル"],
+                    "URL": case["URL"],
+                    "企業": case["企業"],
+                    "インダストリー": "その他",
+                    "ソリューション": "その他",
+                    "要約": "取得エラー"
+                }
+            else:
+                return {
+                    "タイトル": case["タイトル"],
+                    "URL": case["URL"],
+                    "企業": case["企業"],
+                    "インダストリー": "その他"
+                }

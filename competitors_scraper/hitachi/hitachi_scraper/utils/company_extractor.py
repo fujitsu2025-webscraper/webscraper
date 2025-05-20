@@ -21,15 +21,12 @@ def extract_company_from_title(title: str) -> str:
         logger.warning("タイトルが空です")
         return ""
     
-    # 日立を除外するパターン
+    # 日立製作所を除外するパターン
     exclude_patterns = [
-            r"日立",
-            r"Hitachi",
-            r"ハイタッチ",
-            r"日立ソリューション",
-            r"日立製作所",
-            r"日立システムズ"
-        ]
+        r"Hitachi",
+        r"日立製作所"
+        r"ヒタチセイサクショ"
+    ]
     
     # 企業名を抽出するパターン
     patterns = [
