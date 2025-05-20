@@ -169,17 +169,6 @@ class Hitachi_Scraper:
                 logger.info(f"{wait_time:.2f}秒待機中...")
                 time.sleep(wait_time)
 
-                current_count = self._get_case_count(result_list)
-                logger.info(f"現在の事例リンク数: {current_count}")
-
-                if current_count > previous_count:
-                    logger.info(f"新しい事例が {current_count - previous_count} 件読み込まれました")
-                    previous_count = current_count
-                    consecutive_no_change = 0
-                else:
-                    consecutive_no_change += 1
-                    logger.info(f"新しい事例は読み込まれませんでした（連続 {consecutive_no_change} 回）")
-
                 clicks += 1
 
                 # ボタンを再取得
