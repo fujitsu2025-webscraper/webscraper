@@ -404,7 +404,8 @@ class NECScraper:
                 company_name=company_name,
                 business_type=business_type,
                 business_field=business_field,
-                customer_profile=customer_profile
+                customer_profile=customer_profile,
+                content=content
             )
             
             # 要約機能が有効な場合のみ要約を生成

@@ -362,7 +362,6 @@ def determine_industry_with_web_search(company: str, content: str) -> str:
     main_company = company
     if not main_company:
         main_company = extract_company_from_text(content)
-    
     if not main_company:
         logger.warning("企業名が指定されておらず、抽出もできませんでした")
         return "その他"

@@ -40,7 +40,7 @@ INDUSTRY_PATTERNS = {
 PREFECTURE_PATTERN = r'(北海道|青森県|岩手県|宮城県|秋田県|山形県|福島県|茨城県|栃木県|群馬県|埼玉県|千葉県|東京都|神奈川県|新潟県|富山県|石川県|福井県|山梨県|長野県|岐阜県|静岡県|愛知県|三重県|滋賀県|京都府|大阪府|兵庫県|奈良県|和歌山県|鳥取県|島根県|岡山県|広島県|山口県|徳島県|香川県|愛媛県|高知県|福岡県|佐賀県|長崎県|熊本県|大分県|宮崎県|鹿児島県|沖縄県)'
 MUNICIPALITY_PATTERN = r'([^\s]+[市町村区])'
 
-def determine_industry(url=None, company_name=None, business_type=None, business_field=None, customer_profile=None):
+def determine_industry(url=None, company_name=None, business_type=None, business_field=None, customer_profile=None, content=None):
     """
     テキストからインダストリーを判断する
     
@@ -50,6 +50,7 @@ def determine_industry(url=None, company_name=None, business_type=None, business
         business_type (str): 業種情報
         business_field (str): 業務情報
         customer_profile (str): 顧客プロフィール
+        content (str): urlの文章全体
     
     Returns:
         str: 判断されたインダストリー
@@ -156,7 +157,7 @@ def determine_industry(url=None, company_name=None, business_type=None, business
     
     # 上記の方法で判断できない場合はGPT-4o-miniを使用
     if industry == "その他" and (company_name or customer_profile):
-        prompt = f"企業名: {company_name or ''}\nお客様プロフィール: {customer_profile or ''}\n業種情報: {business_type or ''}\n業務情報: {business_field or ''}"
+        prompt = f"企業名: {company_name or ''}\nお客様プロフィール: {customer_profile or ''}\n業種情報: {business_type or ''}\n業務情報: {business_field or ''}\nコンテンツ: {content or ''}"
         
         try:
             gpt_industry = generate_with_gpt4o_mini(prompt, INDUSTRY_SYSTEM_MESSAGE, max_tokens=50, temperature=0.3)
